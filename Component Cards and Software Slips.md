@@ -1,3 +1,5 @@
+[Homepage]: https://jreng-cls.github.io/Rogers-Jake-portfolio/
+[Homepage]
 # Component Cards and Software Slips
 In this assignment we learned the different hardware and software components of computers as well as how each of these parts interact with each other. We did various activities to help visualize this flow of data throughout computers.
 
