@@ -6,3 +6,9 @@ In this project we learn various commands that help us when navigating through t
 
 <img width="506.5" height="540" alt="image" src="https://github.com/user-attachments/assets/d5c427e6-b645-45d5-bc8e-a4fbc88668b3" /> 
 <img width="506.5" height="540" alt="image" src="https://github.com/user-attachments/assets/7de2dea4-388c-46a1-9033-0372884c66b6" />
+In these two images you can see the terminal in Virtual Machines. We  used this application to simulate what a terminal is used for. We started with the most basic commands 
+pwd(Print Working Directory)- This command allows the user to find where they are in the computer. The output for this command is your root directory followed by the folders or other directories you are in such as home/user/Documents/Essays
+cd(Common Directory)- This command is used to navigate through directories and folders. There are a few different forms of this command that can be used:
+cd ~/
+cd .. 
+cd ../..
