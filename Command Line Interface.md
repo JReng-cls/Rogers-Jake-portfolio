@@ -12,3 +12,7 @@ cd(Common Directory)- This command is used to navigate through directories and f
 cd ~/
 cd .. 
 cd ../..
+
+
+
+In order to fix this problem my teacher and I had to run the sudo nano /etc/systemd/resolved.conf command to open up the nano control. Following that we navigated to the DNS server and removed the # from the name and set it = to 8.8.8.8. Finnaly we restarted the system by running the sudo systemctl restart systemd-resolved
