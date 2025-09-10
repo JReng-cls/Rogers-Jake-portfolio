@@ -1,4 +1,4 @@
-theme: minimal-mistakes-jekyll
+remote_theme: daattali/beautiful-jekyll
 
 # Site settings
 title: "Jake Rogers Portfolio"
