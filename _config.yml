@@ -1,6 +1,6 @@
 
 # Use the remote_theme for Beautiful Jekyll on GitHub Pages
-remote_theme: daattali/beautiful-jekyll
+remote_theme: daattali/beautiful-jekyll@latest
 
 # Site settings
 title: "Jake Rogers Digital Portfolio"
