@@ -14,12 +14,8 @@ social_links:
     url: "https://github.com/JReng-cls/Rogers-Jake-portfolio"
 
 # Navigation links
-nav:
-  - title: "Home"
-    url: "https://jreng-cls.github.io/Rogers-Jake-portfolio/"
-  - title: "Component Cards and Software Slips"
-    url: "https://jreng-cls.github.io/Rogers-Jake-portfolio/Component%20Cards%20and%20Software%20Slips"
-  - title: "Command Line Interface Project"
-    url: "https://jreng-cls.github.io/Rogers-Jake-portfolio/Command%20Line%20Interface"
-  - title: "Senior Engineering Capstone"
-    url: "/Rogers-Jake-portfolio/Senior%20Engineering%20Capstone"
+navbar-links:
+  "Home": "https://jreng-cls.github.io/Rogers-Jake-portfolio/"
+  "Component Cards and Software Slips": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Component%20Cards%20and%20Software%20Slips"
+  "Command Line Interface Project": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Command%20Line%20Interface"
+  "Senior Engineering Capstone": "/Rogers-Jake-portfolio/Senior%20Engineering%20Capstone"
