@@ -10,9 +10,4 @@ Wrestling and Lacrosse. My favorite hobbies are Fishing and Work. In the
 future, I hope to be a Mechanical Engineer.
 
 
-[Component Cards and Software Slips Project]: https://jreng-cls.github.io/Rogers-Jake-portfolio/Component%20Cards%20and%20Software%20Slips
-[Command Line Interface]: https://jreng-cls.github.io/Rogers-Jake-portfolio/Command%20Line%20Interface
-## My Projects
-[Component Cards and Software Slips Project] 
 
-[Command Line Interface]
