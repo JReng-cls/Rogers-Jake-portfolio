@@ -11,15 +11,15 @@ email: "26rogerj@Charlottelatin.org"
 
 # Social links
 social_links:
-	 title "GitHub"
-		url "https://github.com/JReng-cls/Rogers-Jake-portfolio"
+title: "GitHub"
+url: "https://github.com/JReng-cls/Rogers-Jake-portfolio"
 # Navigation links
 nav:
-	 title: "Home"
-		url: "https://jreng-cls.github.io/Rogers-Jake-portfolio/"
-	 title: "Component Cards and Software Slips"
-		url: "https://jreng-cls.github.io/Rogers-Jake-portfolio/Component%20Cards%20and%20Software%20Slips"
-	 title: "Command Line Interface Project"
-		url: "https://jreng-cls.github.io/Rogers-Jake-portfolio/Command%20Line%20Interface"
-	 title: "Senior Engineering Capstone"
-		url: "/Rogers-Jake-portfolio/Senior%20Engineering%20Capstone"
+title: "Home"
+url: "https://jreng-cls.github.io/Rogers-Jake-portfolio/"
+title: "Component Cards and Software Slips"
+url: "https://jreng-cls.github.io/Rogers-Jake-portfolio/Component%20Cards%20and%20Software%20Slips"
+title: "Command Line Interface Project"
+url: "https://jreng-cls.github.io/Rogers-Jake-portfolio/Command%20Line%20Interface"
+title: "Senior Engineering Capstone"
+url: "/Rogers-Jake-portfolio/Senior%20Engineering%20Capstone"
