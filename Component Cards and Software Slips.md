@@ -1,5 +1,3 @@
-[Homepage]: https://jreng-cls.github.io/Rogers-Jake-portfolio/
-[Homepage][Homepage]
 
 # Component Cards and Software Slips
 
