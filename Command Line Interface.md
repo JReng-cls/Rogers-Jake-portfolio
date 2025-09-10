@@ -19,6 +19,20 @@ cd ..
 
 cd ../..
 
+ls(List)- This command lists all files and folders in your current directory
+
+mkdir(Make Directory)- This command makes a new directory in your current directory
+
+touch- This command creates new files
+
+cat- This command displays all the contents of a selected file
+
+echo- This command repeats whatever you type into but it can also add content to files ex. Adding "Test 1" to a googledoc.txt file- echo "Test 1" > googledoc.txt
+
+nano- This command is used to edit files
+
+## House Activity 
+
 
 
 
