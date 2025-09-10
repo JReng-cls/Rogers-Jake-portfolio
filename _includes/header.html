@@ -1,0 +1,15 @@
+<!-- Always-visible navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <div class="collapse navbar-collapse show">
+      <ul class="navbar-nav ml-auto">
+        {% for title, url in site.navbar-links %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url }}">{{ title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
