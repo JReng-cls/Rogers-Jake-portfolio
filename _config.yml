@@ -13,9 +13,6 @@ social_links:
   - title: "GitHub"
     url: "https://github.com/JReng-cls/Rogers-Jake-portfolio"
 
-include:
-  - _includes/header.html
-
 # Navigation links
 navbar-links:
   "Home": "https://jreng-cls.github.io/Rogers-Jake-portfolio/"
