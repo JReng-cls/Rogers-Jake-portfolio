@@ -7,22 +7,6 @@ title: "Jake Rogers Digital Portfolio"
 description: "A showcase of my projects, skills, and experience."
 author: "Jake Rogers"
 email: "26rogerj@Charlottelatin.org"
-
-footer-links-active: true
-footer-links:
-  - name: Email
-    icon: fas fa-envelope
-    url: "mailto:26rogerj@Charlottelatin.org"
-  - name: GitHub
-    icon: fab fa-github
-    url: "https://github.com/JReng-cls/Rogers-Jake-portfolio"
-
-
-# Social links
-social_links:
-  - title: "GitHub"
-    url: "https://github.com/JReng-cls/Rogers-Jake-portfolio"
-
 # Navigation links
 navbar-links:
   "Home": "https://jreng-cls.github.io/Rogers-Jake-portfolio/"
