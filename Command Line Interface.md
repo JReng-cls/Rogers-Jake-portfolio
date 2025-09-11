@@ -1,35 +1,23 @@
 
 ## Command Line Interface Project
 In this project we learn various commands that help us when navigating through the terminal. In networking, the terminal is used for easy access connection to a router in order to configure a certain network.
-## Linux Commands
 
-<img width="500" height="540" alt="image" src="https://github.com/user-attachments/assets/d5c427e6-b645-45d5-bc8e-a4fbc88668b3" /> <img width="500" height="540" alt="image" src="https://github.com/user-attachments/assets/7de2dea4-388c-46a1-9033-0372884c66b6" />
 
-In these two images you can see the terminal in Virtual Machines. We  used this application to simulate what a terminal is used for. We started with the most basic commands 
+## Key Linux Commands
 
-pwd(Print Working Directory)- This command allows the user to find where they are in the computer. The output for this command is your root directory followed by the folders or other directories you are in such as home/user/Documents/Essays
+<img width="500" height="540" alt="image" src="https://github.com/user-attachments/assets/d5c427e6-b645-45d5-bc8e-a4fbc88668b3" />
+<img width="500" height="540" alt="image" src="https://github.com/user-attachments/assets/7de2dea4-388c-46a1-9033-0372884c66b6" />
 
-cd(Change Directory)- This command is used to navigate through directories and folders. There are a few different forms of this command that can be used:
-
-cd ~/Directory Name- Takes you to Directory Name
-
-cd .. - Takes you one level backwards in your current directory
-
-cd ../..- Takes you two levels backwards in your current directory. Can be used to move more than two levels by adding additional "/.."
-
-ls(List)- This command lists all files and folders in your current directory
-
-ls -a- This version of list displays all of the hidden files within the folder
-
-mkdir(Make Directory)- This command makes a new directory in your current directory
-
-touch- This command creates new files
-
-cat- This command displays all the contents of a selected file
-
-echo- This command repeats whatever you type into but it can also add content to files ex. Adding "Test 1" to a googledoc.txt file- echo "Test 1" > googledoc.txt
-
-nano- This command is used to edit files
+| Command         | Description                                                                                  | Example Usage                        |
+|-----------------|----------------------------------------------------------------------------------------------|--------------------------------------|
+| `pwd`           | Print Working Directory – shows your current location in the filesystem.                     | `pwd`                                |
+| `cd`            | Change Directory – navigate between folders.                                                 | `cd ~/DirectoryName`<br>`cd ..`      |
+| `ls`            | List files and folders in the current directory.                                             | `ls`<br>`ls -a`                      |
+| `mkdir`         | Make Directory – create a new folder.                                                        | `mkdir new_folder`                   |
+| `touch`         | Create a new file.                                                                           | `touch file.txt`                     |
+| `cat`           | Display the contents of a file.                                                              | `cat file.txt`                       |
+| `echo`          | Print text or add content to a file.                                                         | `echo "Test 1" > file.txt`         |
+| `nano`          | Edit files in the terminal.                                                                  | `nano file.txt`                      |
 
 ## House Activity 
 
