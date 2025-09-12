@@ -53,6 +53,7 @@ In Map the Maze part 1 we created tree diagrams to visualize directories in comp
 </div>
 
 These images provide multiple examples of these commands being used.
+
 ---
 
 ## House Activity
