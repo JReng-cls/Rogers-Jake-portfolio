@@ -1,7 +1,10 @@
+## Command Line Interface Project
+
+In this project we learn various commands that help us when navigating through the terminal. In networking, the terminal is used for easy access connection to a router in order to configure a certain network.
+
 
 # Table of Contents
 
-- [Command Line Interface Project](#command-line-interface-project)
 - [Tree Diagrams](#tree-diagrams)
 - [Key Linux Commands](#key-linux-commands)
 - [House Activity](#house-activity)
@@ -9,13 +12,6 @@
 	- [Navigating the House](#navigating-the-house)
 - [Reflection](#reflection)
 
-
-
----
-
-## Command Line Interface Project
-
-In this project we learn various commands that help us when navigating through the terminal. In networking, the terminal is used for easy access connection to a router in order to configure a certain network.
 
 ---
 
