@@ -36,12 +36,6 @@ In Map the Maze part 1 we created tree diagrams to visualize directories in comp
 
 ## Key Linux Commands
 
-<div align="center">
-	<img width="400" alt="image" src="https://github.com/user-attachments/assets/d5c427e6-b645-45d5-bc8e-a4fbc88668b3" />
-	<img width="400" alt="image" src="https://github.com/user-attachments/assets/7de2dea4-388c-46a1-9033-0372884c66b6" />
-</div>
-
-
 | Command         | Description                                                                                  | Example Usage                        |
 |-----------------|----------------------------------------------------------------------------------------------|--------------------------------------|
 | `pwd`           | Print Working Directory – shows your current location in the filesystem.                     | `pwd`                                |
@@ -53,7 +47,12 @@ In Map the Maze part 1 we created tree diagrams to visualize directories in comp
 | `echo`          | Print text or add content to a file.                                                         | `echo "Test 1" > file.txt`         |
 | `nano`          | Edit files in the terminal.                                                                  | `nano file.txt`                      |
 
+<div align="center">
+	<img width="400" alt="image" src="https://github.com/user-attachments/assets/d5c427e6-b645-45d5-bc8e-a4fbc88668b3" />
+	<img width="400" alt="image" src="https://github.com/user-attachments/assets/7de2dea4-388c-46a1-9033-0372884c66b6" />
+</div>
 
+These images provide multiple examples of these commands being used.
 ---
 
 ## House Activity
