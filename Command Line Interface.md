@@ -3,7 +3,6 @@
 
 - [Command Line Interface Project](#command-line-interface-project)
 - [Key Linux Commands](#key-linux-commands)
-- [Map the Maze Part 2](#map-the-maze-part-2)
 - [House Activity](#house-activity)
 	- [Download Phase](#download-phase)
 	- [Navigating the House](#navigating-the-house)
@@ -12,6 +11,19 @@
 ## Command Line Interface Project
 In this project we learn various commands that help us when navigating through the terminal. In networking, the terminal is used for easy access connection to a router in order to configure a certain network.
 
+## Tree Diagrams
+
+	Root Directory
+
+	└──HomeFolder 
+	
+ 	├──Documents
+	
+ 	├──Photos├── Essay.docx         
+	
+ 	└──Music └── Gatsby.jpg
+
+In Map the Maze part 1 we created tree diagrams to visualize directories in computers. My example directory shows the Root Directory which is always listed first. Next is typically user folders or home folders. Finnaly I created files and nested directories. 
 
 ## Key Linux Commands
 
@@ -29,8 +41,6 @@ In this project we learn various commands that help us when navigating through t
 | `echo`          | Print text or add content to a file.                                                         | `echo "Test 1" > file.txt`         |
 | `nano`          | Edit files in the terminal.                                                                  | `nano file.txt`                      |
 
-## Map the Maze Part 2
-
 ## House Activity 
 
 This activity was created in a Github repository. The repository was called house and it contained other folders that were the different rooms in the house. Different rooms contained files, hidden files, etc that were all clues to completing the activity.
@@ -47,4 +57,8 @@ Following the insturctions provided by our teacher. First updating by running "s
 
 ### Navigating the House 
 
-The first thing I had to do was rename the directories for the activity so that I could navigate easier. Task one was to enter the friends house. I did this by using "cd ~/Documents/House/Activity/house". I listed all the folders in one command in order to be efficient and not have to type out a seperate command line for each folder. The next task was to see what is around the house. Using the "ls" command I found directories labled "bedroom1, bedroom2, garage, kitchen, main_entrance". Next I had to enter the main_entrance so I used the "cd main_entrance" command. In order to find and read the instructions left by the friend I used the "ls" command followed by "cat instructions.txt". To move back to the house folder I used the "cd .." command to move one level backwards. Next I had to move to the kitchen by using the "cd kitchen" command. Using the "ls" command I found all the food and drink left around the house.
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/1a532206-5586-4d7b-ac0d-14643b4dbb0d" /> <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/c8a915c3-bee3-48e0-bc25-f4f2b1c0114b" />
+
+
+
+The first thing I had to do was rename the directories for the activity so that I could navigate easier. Task one was to enter the friends house. I did this by using "cd ~/Documents/House/Activity/house". I listed all the folders in one command in order to be efficient and not have to type out a seperate command line for each folder. The next task was to see what is around the house. Using the "ls" command I found directories labled "bedroom1, bedroom2, garage, kitchen, main_entrance". Next I had to enter the main_entrance so I used the "cd main_entrance" command. In order to find and read the instructions left by the friend I used the "ls" command followed by "cat instructions.txt". To move back to the house folder I used the "cd .." command to move one level backwards. Next I had to move to the kitchen by using the "cd kitchen" command. Using the "ls" command I found all the food and drink left around the house. Using the "rm" command I was able to remove items from the kitchen folder. By putting a / in between items when using the "rm" command such as "rm notes.txt/essays" you can remove multiple items in one command. Next I used the "ls -a" command to find the rotten bananas file. Using "rm" again, I was able to remove these files. Next I navigated to bedroom1 and then to bedroom2 by using the change directories command. When the lights went out, I used the "pwd" command to print my working directory to know where I am in the house. Next I went to the garage by using "cd garage". Using "rm" I removed trash from each box. Finnaly I left a note by using "touch note.txt" then "echo "Thank you for trusting me!" > note.txt".
