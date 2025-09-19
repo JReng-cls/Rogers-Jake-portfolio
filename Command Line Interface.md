@@ -40,7 +40,7 @@ In Map the Maze part 1 we created tree diagrams to visualize directories in comp
 | `mkdir`         | Make Directory – create a new folder.                                                        | `mkdir new_folder`                   |
 | `touch`         | Create a new file.                                                                           | `touch file.txt`                     |
 | `cat`           | Display the contents of a file.                                                              | `cat file.txt`                       |
-| `echo`          | Print text or add content to a file.                                                         | `echo "Test 1" > file.txt`         |
+| `echo`          | Print text or add content to a file.                                                         | `echo "Test 1" > file.txt`           |
 | `nano`          | Edit files in the terminal.                                                                  | `nano file.txt`                      |
 
 <div align="center">
@@ -81,8 +81,34 @@ Following the insturctions provided by our teacher. First updating by running "s
 
 The first thing I had to do was rename the directories for the activity so that I could navigate easier. Task one was to enter the friends house. I did this by using "cd ~/Documents/House/Activity/house". I listed all the folders in one command in order to be efficient and not have to type out a seperate command line for each folder. The next task was to see what is around the house. Using the "ls" command I found directories labled "bedroom1, bedroom2, garage, kitchen, main_entrance". Next I had to enter the main_entrance so I used the "cd main_entrance" command. In order to find and read the instructions left by the friend I used the "ls" command followed by "cat instructions.txt". To move back to the house folder I used the "cd .." command to move one level backwards. Next I had to move to the kitchen by using the "cd kitchen" command. Using the "ls" command I found all the food and drink left around the house. Using the "rm" command I was able to remove items from the kitchen folder. By putting a / in between items when using the "rm" command such as "rm notes.txt/essays" you can remove multiple items in one command. Next I used the "ls -a" command to find the rotten bananas file. Using "rm" again, I was able to remove these files. Next I navigated to bedroom1 and then to bedroom2 by using the change directories command. When the lights went out, I used the "pwd" command to print my working directory to know where I am in the house. Next I went to the garage by using "cd garage". Using "rm" I removed trash from each box. Finnaly I left a note by using "touch note.txt" then "echo "Thank you for trusting me!" > note.txt".
 
-
 ---
+
+## Trouble Shooting Network Issues
+
+In this activity we took out knowledge of the command line interface, on a Mac and VM, and used it to fix basic network issues on computers. Problems like these could be that your computer isn't connecting to wifi or can't look up a website.
+
+Our class broke down the four steps to identifying the problem
+
+1. Check whether your device is connected to the internet either by wifi or ethernet
+2. Verify that you device has an ip address by going into the terminal and running ifconfig on a mac or ip addr on Ubuntu
+3. Test whether your device can reach the internet at all by going into the terminal and pinging a common website like 8.8.8.8(google.com)
+4. Test whether your device can reach the internet by website name, this could reveal problems with your DNS
+
+These four steps should help when trying to identrify a networking issue.
+
+| Term                         | Definition                                                                                                   | 
+|------------------------------|--------------------------------------------------------------------------------------------------------------|
+| `Wi-Fi/Ethernet`             | Signal carrier- connects your device to the internet .                                                       |
+| `Network Adapter/Interface`  | The hardware that lets your computer communicate with the internet ex. NIC (Network Interface Card).         |
+| `IP Address`                 | Identifiable address for devices within a network ex. 192.168.1.25 Private IPs : 10… , 192…, 172..,          |
+| `Defualt Gateway(Router)`    | The device that connects your local network to the internet                                                  |
+| `DNS(Domain Name System)`    | Converts the IP address of websites into a user-readable format.                                             |
+| `Ping`                       | Tests connection between two devices within in a network Use: ping -c 4 8.8.8.8                              |
+| `NAT/Shared networking(UTM)` | Pools all the IP addresses of devices within a network to create one IP address that identifies the network. |
+| `Bridged Networking(UTM)`    | Acts like a completely separate computer Gets its own IP address from the router.                            |
+
+Knowing these terms is imperative to success when troubleshooting networks using the command line interface
+
 
 ## Reflection
 
