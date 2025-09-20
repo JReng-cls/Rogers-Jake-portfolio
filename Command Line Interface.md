@@ -10,6 +10,7 @@ In this project we learn various commands that help us when navigating through t
 - [House Activity](#house-activity)
 	- [Download Phase](#download-phase)
 	- [Navigating the House](#navigating-the-house)
+- [Trouble Shooting Network Issues](#trouble-shooting-network-issues)
 - [Reflection](#reflection)
 
 
