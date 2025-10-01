@@ -1,0 +1,46 @@
+/* Custom styles for Jake Rogers Digital Portfolio */
+
+body {
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+}
+
+/* Accent color for links and buttons */
+a, .btn-primary {
+  color: #0077b6;
+}
+
+/* Navbar styling */
+.navbar {
+  background: linear-gradient(90deg, #0077b6 0%, #00b4d8 100%);
+}
+
+/* Section headers */
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+/* Card and box shadow for modern look */
+.card, .well, .box {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-radius: 8px;
+}
+
+/* Table styling */
+table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background: #0077b6;
+  color: #fff;
+}
+
+
+/* Footer styling */
+footer {
+  background: #023e8a;
+  color: #fff;
+  padding: 1.5em 0;
+}
