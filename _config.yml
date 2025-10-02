@@ -24,4 +24,4 @@ accent_color: "#0077b6" # A modern blue accent
 
 
 # Custom CSS for further tweaks (create this file if you want to override styles)
-custom-css: "/assets/css/custom-styles.css"
+custom_css: "/assets/css/custom-styles.css"
