@@ -1,20 +1,35 @@
-### Implementing Security for Devices
+# Implementing Security for Devices
+
+---
 
 ## Password Algorithm Design Challenge
 
-In this activity we created password algorithms for a user trying to secure a device or application. 
+In this activity password algorithms were created for a user trying to secure a device or application. 
 
 Chosen Algorithm: 
-- Your birth month+Your birth day+ Your birth year
+- Users birth month+Users birth day+ Users birth year
 - Least favorite snack
 - Random Symbol
-- All even numbers from your phone number
-- All odd numbers from your phone number added to
+- All even numbers from users phone number
+- All odd numbers from users phone number added to
 - Random lowercase letter
 - Random uppercase letter
 - Random uppercase letter
 - Random symbol
 
   ex: 2040spinach#1833pOL&
-  This password was set to the password of the Ubuntu user in the Ubuntu VM in order to implement a more secure account.
-<img width="354" height="140" alt="image" src="https://github.com/user-attachments/assets/a3b318dd-bea5-42f7-ad50-1824c465a1ca" />
+
+This password algorithm would suffice for the creation of a unique secure password. The algorithm uses a mix or symbols, numbers, and letters as well as very lengthy. A user would need to have a password manager in order to use this algorthim as it is not easy to remember.
+
+This information came from the Password Algortim Design Challenge
+
+---
+
+## Changing Ubuntu Password
+
+In this activity the Ubuntu default password was changed to a more secure password created by the algorithm above. 
+
+In order to accomplish this. Complete these steps:
+
+- type -passwd-
+
