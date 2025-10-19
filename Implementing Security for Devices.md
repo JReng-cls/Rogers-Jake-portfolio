@@ -133,3 +133,24 @@ The issue of patching can be solved by turning on automatic updates. In order to
 This inforation came from the Patching Ubuntu Activity
 
 ---
+
+## NIST and OWASP
+
+NIST (National Institute of Standards and Technology) and OWASP (Open Worldwide Security Project) are two companies that give guidelines on creating passwords for better device and application securitization. 
+
+NIST’s main password ideas: 
+• Length>complexity(The password needs to be greater in length rather than complex for a easier password to remember)
+• Multi-Factor Authentication(This ensures that a hacker could not enter the users account by just gaining the password)
+• Screen out bad passwords(This ensures that the hacker is not able to use the brute-force method of hacking)
+OWASP’s main password ideas: 
+• Authentication cheat sheet(This allows the user to easily find keys or codes)
+• password storage cheat sheet(THis allows the user to easily find passwords)
+• recognize credential stuffing(When a hacker tries to use known information about the user to gain access to their account)
+
+This information came from the Implementing Security for Devices Student Notes
+
+---
+
+## Reflection
+
+In order for a user to secure their device and applications they must be active constantly. To start a new account or user then the user must have a password algorithm to generate a strong password that is resistent to hacks. The password algorithm must create a password that is long in order to create more possible outcomes for a potential hacker to guess. It must also use a mix of symbols, numbers and letters. If the algorithm generates a password that is hard to remember then the user can use a password manager or email the password to themselves. After that the user must always update the device and its applications to ensure that hackers can't exploit out of date software. 
