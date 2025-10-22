@@ -14,5 +14,8 @@ Routers are the Post offices on the edge of town because they are the gateways t
 
 Data is the mail or packages being sent to and from the house with a destination and return address
 
+In order to visualize LANS, network maps were created...
 
+<img width="1321" height="746" alt="image" src="https://github.com/user-attachments/assets/a584a312-2871-46e8-b913-ff5bae8ec04e" />
 
+It is important to note that there are arrows pointing in both directions in between each device in the network map. This is due to the fact that data is never just sent to a device, confirmation or responses are always sent back reporting package percentage loss.  
