@@ -4,7 +4,7 @@ For my senior engineering capstone project I decided to build a chair integrated
 
 ## Side Design
 
-
+## Rasberry Pi Timer
 
 ## Daily Journal
 
@@ -18,3 +18,5 @@ For my senior engineering capstone project I decided to build a chair integrated
 - Day 8: Test cut file on wood(To scale)
 - Day 9: Re-designed file based off of test cut and created adobe file to test on cardboard
 - Day 10: Test cut on cardboard to see new size. Added fillets to the fusion file for smoother look. Created aspire file with new design. 
+
+
