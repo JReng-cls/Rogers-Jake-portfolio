@@ -59,4 +59,18 @@ ex. 11000000101010000000000100000001
 ex. converted to hexadecimal C0A80101
 
 Each hex digit is = to 4 bits
+
+## OSI Model
+
+The OSI model has seven layers that data travels through when it is sent across networks.
+
+Notice that the numbers move in reverse order, this is due to the fact that data moves from bottom to top through the OSI model. Using the OSI model, someone can effectively troubleshoot networking issues as if all of these layers are functioning then the data is being transmitted effectively over the network. 
+
+7. Application- The user/computer interaction such as an email or browser
+6. Presentation- When the data is translated through encryption and compression
+5. Session- Manages connection
+4. Transport- Breaks data into segments or packages
+3. Network- Routes packets using IP addresses
+2. Data Link- Transfers frames via MAC, transmits raw bit streams over the physical medium
+1. Physical- wires, signals, switches, wi-fi
   
