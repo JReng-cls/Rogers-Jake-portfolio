@@ -42,6 +42,8 @@ Example conversion: 192.8.1.1
 
 2^7: 128  2^6: 64  2^5: 32  2^4: 16  2^3: 8  2^2: 4  2^1: 2  2^0: 1
 
+Binary is a composition of 8 characters either 1's or 0's. If there is a 1 in place of a value then that value is added to the total. the furthest left spot corresponds to 128, if there is a 1 in that spot then add 128 to the toal. an example of this would be 10000000, the total value of that qould be 128 as the only 1 is in the 128 spot. 
+
 1: 00000001
 
 1: 00000001
@@ -60,6 +62,8 @@ ex. converted to hexadecimal C0A80101
 
 Each hex digit is = to 4 bits
 
+Hexadecimal goes in order 1-9 then letters A-F which is 16 different charecters
+
 ## OSI Model
 
 The OSI model has seven layers that data travels through when it is sent across networks.
@@ -73,4 +77,12 @@ Notice that the numbers move in reverse order, this is due to the fact that data
 3. Network- Routes packets using IP addresses
 2. Data Link- Transfers frames via MAC, transmits raw bit streams over the physical medium
 1. Physical- wires, signals, switches, wi-fi
-  
+
+An way to remember these letters is P.lease D.o N.ot T.hrow S.ausage P.izza A.way
+
+[
+](https://mail.google.com/mail/u/0?ui=2&ik=bdca38649d&attid=0.1&permmsgid=msg-f:1847432137638857158&th=19a365bdb69ac9c6&view=fimg&fur=ip&permmsgid=msg-f:1847432137638857158&sz=s0-l75-ft&attbid=ANGjdJ93nIRlukWuSwU_ELM65jQbb9Y6_oG-FlqAY5dh5JanNYxuTkx9Gu0UPrKEjbriXk_17XGdE46nKwigifh6O5dRji-GWYip3tcdc2YKsJ9BWCulxEJDTf4YPYo&disp=emb&realattid=3FB694D1-CE56-42D0-92AD-17B7BCE278D7&zw)<img width="3264" height="2448" alt="image" src="https://github.com/user-attachments/assets/89dbf330-f978-44d9-b1bd-77555eb606e0" />
+
+These cards display the different layers and their functions as well as possible uses for each layer. The picture above displays an attempt to orient the cards in the correct order. The picture below displays the correct orientation for the cards.
+
+<img width="298" height="360" alt="image" src="https://github.com/user-attachments/assets/f302551e-6041-4581-9b67-f1f4b401a02e" />
