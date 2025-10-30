@@ -86,3 +86,11 @@ An way to remember these letters is P.lease D.o N.ot T.hrow S.ausage P.izza A.wa
 These cards display the different layers and their functions as well as possible uses for each layer. The picture above displays an attempt to orient the cards in the correct order. The picture below displays the correct orientation for the cards.
 
 <img width="298" height="360" alt="image" src="https://github.com/user-attachments/assets/f302551e-6041-4581-9b67-f1f4b401a02e" />
+
+| TCP/IP Layer   | Corresponding OSI Layers| Functions             |
+|----------------|-------------------------|-----------------------|
+| Application    |5-7                      | Apps, HTTP, FTP       |
+| Transport      |4                        | TCP/UDP, segmentation |
+| Internet       |3                        | IP addressing routing |
+| Network Access |1-2                      | Physical/Data link    |
+
