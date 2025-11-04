@@ -7,18 +7,7 @@ title: "Jake Rogers Digital Portfolio"
 description: "A showcase of my projects, skills, and experience."
 author: "Jake Rogers"
 email: "26rogerj@Charlottelatin.org"
-# Navigation links
-navbar-links:
-  "Home": "https://jreng-cls.github.io/Rogers-Jake-portfolio/"
-  "Component Cards and Software Slips": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Component%20Cards%20and%20Software%20Slips"
-  "Command Line Interface Project": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Command%20Line%20Interface"
-  "Senior Engineering Capstone": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Senior%20Engineering%20Capstone"
-  "Determing Security Controls for Devices": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Determining%20Security%20Controls%20for%20Devices"
-  "Implementing Security Controls for Devices": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Implementing%20Security%20for%20Devices"
-  "Owl Soldering": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Owl%20Soldering"
-  "Data Movement and Types of Networks": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Data%20Movement%20and%20Types%20of%20Networks"  
-  "PCB Board Project": "https://jreng-cls.github.io/Rogers-Jake-portfolio/PCB%20Board%20Project/Documentation"
-  "Types of Networks/Devices and Connections": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Types_of_Networks_and_Connections_and_Devices"
+
 
 skin: "cerulean"
 
@@ -29,3 +18,22 @@ accent_color: "#0077b6" # A modern blue accent
 
 # Custom CSS for further tweaks (create this file if you want to override styles)
 custom_css: "/assets/css/custom-styles.css"
+
+# Sidebar settings (optional): keep `navbar-links` intact but also expose sidebar links
+# The site will use CSS to visually move the header nav into a left sidebar.
+sidebar:
+  enabled: true
+  width: 220 # sidebar width in pixels
+
+# Duplicate of navbar links for clarity; you can update either section and keep them in sync.
+sidebar_links:
+  "Home": "https://jreng-cls.github.io/Rogers-Jake-portfolio/"
+  "Component Cards and Software Slips": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Component%20Cards%20and%20Software%20Slips"
+  "Command Line Interface Project": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Command%20Line%20Interface"
+  "Senior Engineering Capstone": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Senior%20Engineering%20Capstone"
+  "Determing Security Controls for Devices": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Determining%20Security%20Controls%20for%20Devices"
+  "Implementing Security Controls for Devices": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Implementing%20Security%20for%20Devices"
+  "Owl Soldering": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Owl%20Soldering"
+  "Data Movement and Types of Networks": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Data%20Movement%20and%20Types%20of%20Networks"
+  "PCB Board Project": "https://jreng-cls.github.io/Rogers-Jake-portfolio/PCB%20Board%20Project/Documentation"
+  "Types of Networks/Devices and Connections": "https://jreng-cls.github.io/Rogers-Jake-portfolio/Types_of_Networks_and_Connections_and_Devices"

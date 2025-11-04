@@ -14,6 +14,23 @@ a, .btn-primary {
   background: linear-gradient(90deg, #0077b6 0%, #00b4d8 100%);
 }
 
+/* Sidebar layout: move the navbar into a fixed left sidebar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 220px;
+  overflow-y: auto;
+  z-index: 1000;
+  padding-top: 1.5rem;
+}
+
+/* Push the main content to the right so it isn't hidden behind the sidebar */
+body {
+  padding-left: 240px; /* small gap to give breathing room */
+}
+
 /* Section headers */
 h1, h2, h3, h4 {
   font-family: 'Montserrat', Arial, sans-serif;
@@ -43,4 +60,28 @@ footer {
   background: #023e8a;
   color: #fff;
   padding: 1.5em 0;
+}
+
+/* Responsive: collapse the sidebar on small screens */
+@media (max-width: 900px) {
+  .navbar {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+  body {
+    padding-left: 0;
+  }
+}
+
+/* Hide top/header horizontal nav on wide screens so only the left sidebar is visible */
+@media (min-width: 901px) {
+  header nav,
+  .site-header nav,
+  .site-nav,
+  .top-nav,
+  .header-nav,
+  .top-navigation {
+    display: none !important;
+  }
 }
