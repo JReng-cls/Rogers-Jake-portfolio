@@ -74,14 +74,38 @@ footer {
   }
 }
 
-/* Hide top/header horizontal nav on wide screens so only the left sidebar is visible */
+/* Convert common header nav selectors into a fixed left sidebar on wide screens.
+   This targets several possible nav containers used by Beautiful Jekyll variants.
+   If the theme uses a different selector, tell me the nav class and I will add it. */
 @media (min-width: 901px) {
   header nav,
   .site-header nav,
   .site-nav,
   .top-nav,
   .header-nav,
-  .top-navigation {
+  .top-navigation,
+  nav.site-nav,
+  .site-header .nav,
+  nav#site-navigation,
+  .site-navigation {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    height: 100vh !important;
+    width: 220px !important;
+    overflow-y: auto !important;
+    z-index: 1000 !important;
+    padding-top: 1.5rem !important;
+    background: linear-gradient(90deg, #0077b6 0%, #00b4d8 100%) !important;
+  }
+
+  /* If a `.navbar` element exists (our previous fallback), hide it to avoid duplicates */
+  .navbar {
     display: none !important;
+  }
+
+  /* Ensure content is pushed to the right of the new sidebar */
+  body {
+    padding-left: 240px !important;
   }
 }
