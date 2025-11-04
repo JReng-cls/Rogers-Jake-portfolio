@@ -12,3 +12,4 @@ Another method of locating a devices IP address would be to visit the website ht
 
 The outputted screen should look something like this:
 
+![screenshot](assets/css/IP_wi_SS.png)
