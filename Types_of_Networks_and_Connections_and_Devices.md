@@ -12,4 +12,7 @@ Another method of locating a devices IP address would be to visit the website ht
 
 The outputted screen should look something like this:
 
-![screenshot](assets/css/IP_wi_SS.png)
+![screenshot](assets/css/IP_wi_ss.png)
+
+The sites detected IPv4 address can be seen in the image above: 173.95.44.210. This IP address is different from the one found earlier using the 'ip a' command due to the fact that each device has an internal and external IP address. The external IP address is how devices outside the LAN detect it. The internal IP address is how devices within the same network detect and send data to it. By using a VM in shared mode, the VM "hides behind" the IP address of the computer. In doing so, the VM conserves IP addresses and acts as a router allowing multiple VM's to communicate through one IP address. 
+
