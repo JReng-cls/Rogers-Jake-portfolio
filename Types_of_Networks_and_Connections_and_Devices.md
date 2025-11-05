@@ -22,3 +22,7 @@ At this point when the 'ip a' command is ran the internal IP address may not app
 
 Now the internal IP address should appear under enp0s1 like so:
 
+![screenshot](assets/css/ipa_bridged.png)
+
+Now to find the external IP address go back to https://whatismyipaddress.com using firefox on the VM. A common error when trying to run programs on the VM is that they will not open or function properly unless the 'sudo apt update & sudo apt upgrade' commands are ran. After this the outputted screen should look like this:
+
