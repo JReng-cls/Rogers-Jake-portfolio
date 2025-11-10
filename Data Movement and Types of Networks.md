@@ -84,7 +84,10 @@ An way to remember these letters is P.lease D.o N.ot T.hrow S.ausage P.izza A.wa
 
 Another way to visualize the OSI model is through a Road Map project
 
-![screenshot](OSI_toll.png)
+![screenshot](assets/css/OSI_toll.png)
+
+In this visualization, each toll is a different layer of the OSI model. This roadmap shows how data moves from layer 7 to layer 1. The most important layer is layer 7 because if the request is not right then none of the rest can be correct. This helps someone understand the connections between TCP and OSI to see the similarities at the application layer of the TCP model.
+
 
 [
 ](https://mail.google.com/mail/u/0?ui=2&ik=bdca38649d&attid=0.1&permmsgid=msg-f:1847432137638857158&th=19a365bdb69ac9c6&view=fimg&fur=ip&permmsgid=msg-f:1847432137638857158&sz=s0-l75-ft&attbid=ANGjdJ93nIRlukWuSwU_ELM65jQbb9Y6_oG-FlqAY5dh5JanNYxuTkx9Gu0UPrKEjbriXk_17XGdE46nKwigifh6O5dRji-GWYip3tcdc2YKsJ9BWCulxEJDTf4YPYo&disp=emb&realattid=3FB694D1-CE56-42D0-92AD-17B7BCE278D7&zw)<img width="3264" height="2448" alt="image" src="https://github.com/user-attachments/assets/89dbf330-f978-44d9-b1bd-77555eb606e0" />
