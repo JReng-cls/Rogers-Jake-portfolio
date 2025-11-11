@@ -51,5 +51,7 @@ The Outpputed screen should look like this:
 
 ![screenshot](assets/css/ethtool.png)
 
-In the image one can see that Duplex is listed as "Unknown!". This is due to the fact that the VM is not able to directly communicate with the built-in hardware NIC.
+In the image one can see that Duplex is listed as "Unknown!". This is due to the fact that the VM is not able to directly communicate with the built-in hardware NIC. AI supports this claim below:
+
+![screenshot](assets/css/ethtoolexpo.png)
 
