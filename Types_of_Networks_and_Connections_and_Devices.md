@@ -38,3 +38,10 @@ Using the ubuntu vm, type 'sudo apt install ethtool -y' in order to install the 
 
 Next run the 'ip link show' command to reveal the MAC address of the device. The outputted screen should look like this:
 
+![screenshot](assets/css/ipshowss.png)
+
+The Mac address of the device corresponds to the NIC inside of the device. The MAC address is a unique hardware device that is like a nametag for data being sent to it. 
+
+Next, by running the 'arp -n' and 'ip -s link' commands a user can view network activity. The 'arp -n' command reveals the IP and MAC addresses of the devices that the computer has been comunicating with. The commands should reveal a screen like this: 
+
+![screenshot](assets/css/arp-n.png)
