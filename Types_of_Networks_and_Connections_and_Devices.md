@@ -28,3 +28,13 @@ Now to find the external IP address go back to https://whatismyipaddress.com usi
 
 ![screenshot](assets/css/wimipss.png)
 
+This information came from the Exploring IP Addresses Activity
+
+## Exploring IP Addresses in Shared and Bridged Mode
+
+This portion reviews how computers connect to other devices at the first two layers of the OSI model (Physical and Data link)
+
+Using the ubuntu vm, type 'sudo apt install ethtool -y' in order to install the ip link commands.
+
+Next run the 'ip link show' command to reveal the MAC address of the device. The outputted screen should look like this:
+
