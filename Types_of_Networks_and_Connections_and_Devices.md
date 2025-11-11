@@ -45,3 +45,6 @@ The Mac address of the device corresponds to the NIC inside of the device. The M
 Next, by running the 'arp -n' and 'ip -s link' commands a user can view network activity. The 'arp -n' command reveals the IP and MAC addresses of the devices that the computer has been comunicating with. The commands should reveal a screen like this: 
 
 ![screenshot](assets/css/arp-n.png)
+
+By running the 'sudo ethtool enp0s1' command the user can view how the device connects at the Physical layer. 
+
