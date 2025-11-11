@@ -46,5 +46,10 @@ Next, by running the 'arp -n' and 'ip -s link' commands a user can view network 
 
 ![screenshot](assets/css/arp-n.png)
 
-By running the 'sudo ethtool enp0s1' command the user can view how the device connects at the Physical layer. 
+By running the 'sudo ethtool enp0s1' command the user can view how the device connects at the Physical layer.
+The Outpputed screen should look like this:
+
+![screenshot](assets/css/ethtool.png)
+
+In the image one can see that Duplex is listed as "Unknown!". This is due to the fact that the VM is not able to directly communicate with the built-in hardware NIC.
 
