@@ -28,11 +28,8 @@ Now to find the external IP address go back to https://whatismyipaddress.com usi
 
 ![screenshot](assets/css/wimipss.png)
 
-This information came from the Exploring IP Addresses Activity
 
-## Exploring IP Addresses in Shared and Bridged Mode
-
-This portion reviews how computers connect to other devices at the first two layers of the OSI model (Physical and Data link)
+This next portion reviews how computers connect to other devices at the first two layers of the OSI model (Physical and Data link)
 
 Using the ubuntu vm, type 'sudo apt install ethtool -y' in order to install the ip link commands.
 
@@ -58,6 +55,11 @@ In the image one can see that Duplex is listed as "Unknown!". This is due to the
 This information came from the Exploring IP Addresses in Shared and Bridged Mode Activity
 
 ## Ethernet Cable Construction 
+
+
+## TCP/OSI Networks
+
+
 
 ## SOHO Networks
 
