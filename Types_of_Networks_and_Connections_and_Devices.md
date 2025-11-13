@@ -69,3 +69,10 @@ Notice that all the IP addresses have a starting three octects of 192.168.64.x. 
 
 Now to better view how these two devices are connected, grab a partner and test the IP addresses on each partners computer using the 'ip a' command in Ubuntu or 'ifconfig' in Mac terminal. Partners must be using different terminals due to the fact that both partners would have the same IP address if they are on the Ubuntu VM. The outputted screen of the 'ip a' command should look like this:
 
+![screenshot](assets/css/ss1.png)
+
+Next, test the connection between the two devices by running 'ping *Partners IP adress* ' 
+
+The terminal should send and recieve packets will 0.0% package loss signaling a secure connection:
+
+![screenshot](assets/css/ss2.png)
