@@ -63,3 +63,9 @@ This information came from the Exploring IP Addresses in Shared and Bridged Mode
 
 SOHO Networks are small office/home office networks. They typically are composed of only a few devices including a router and desktops. In order to better understand SOHO networks, diagrams were created:
 
+![screenshot](assets/css/SOHODIA.png)
+
+Notice that all the IP addresses have a starting three octects of 192.168.64.x. This is due to the fact that all the devices on this network have the same router or default gateway. 
+
+Now to better view how these two devices are connected, grab a partner and test the IP addresses on each partners computer using the 'ip a' command in Ubuntu or 'ifconfig' in Mac terminal. Partners must be using different terminals due to the fact that both partners would have the same IP address if they are on the Ubuntu VM. The outputted screen of the 'ip a' command should look like this:
+
