@@ -55,3 +55,11 @@ In the image one can see that Duplex is listed as "Unknown!". This is due to the
 
 ![screenshot](assets/css/ethtoolexpo.png)
 
+This information came from the Exploring IP Addresses in Shared and Bridged Mode Activity
+
+## Ethernet Cable Construction 
+
+## SOHO Networks
+
+SOHO Networks are small office/home office networks. They typically are composed of only a few devices including a router and desktops. In order to better understand SOHO networks, diagrams were created:
+
