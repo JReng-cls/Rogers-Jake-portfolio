@@ -78,3 +78,13 @@ Next, test the connection between the two devices by running 'ping *Partners IP 
 The terminal should send and recieve packets will 0.0% package loss signaling a secure connection:
 
 ![screenshot](assets/css/ss2.png)
+
+Next lets review the 'netstat -r' and 'arp -a' commands. 
+
+The 'netstat -r' command corresponds to the network layer (layer 3) as it displays the devices routing table and how data is sent throughout the network. 
+
+![screenshot](assets/css/netstat-r.png)
+
+The 'arp -a' command corresponds to data link layer (layer 2) as it displays the devices mac address table. 
+
+![screenshots](assets/css/arp-a.png)
