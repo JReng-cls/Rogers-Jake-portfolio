@@ -59,7 +59,35 @@ This information came from the Exploring IP Addresses in Shared and Bridged Mode
 
 ## TCP/OSI Networks
 
+Next lets ping google by using the 'ping -c 3 goog.com' command. Note that if this command does not work but 'ping -c 8.8.8.8' command does then there is an issue with the devices DNS. The outputted screen should look like this:
 
+<img width="884" height="169" alt="image" src="https://github.com/user-attachments/assets/3b7a3b5f-6e6e-43d7-89cf-56046ba860f0" />
+
+After that lets run the 'ip link show' command to view the actice interface
+
+<img width="884" height="169" alt="image" src="https://github.com/user-attachments/assets/380f3a44-d693-4c69-8b10-41c12320a3ac" />
+
+**Note in this image**
+
+The Interface Name: lo
+
+The MAC Address: 1a:63:23:39:a4:2c
+
+The Broadcast Address: ff:ff:ff:ff:ff:ff
+
+Now run the 'arp -n' command to see the IP address and MAC address of the devices that the VM has communicated with:
+
+<img width="884" height="57" alt="image" src="https://github.com/user-attachments/assets/3329e85c-d06a-4d4d-8115-7224e9ed3ee9" />
+
+Next the 'ip -s link' command reveals the RX packets, TX packets and any errors:
+
+<img width="884" height="276" alt="image" src="https://github.com/user-attachments/assets/ba3f430a-f1d4-49c9-bcb4-800f675ce898" />
+
+Finally run 'sudo tcpdump -c 5' command in order to capture five live packets travelling through the interface:
+
+<img width="884" height="77" alt="image" src="https://github.com/user-attachments/assets/20bf7087-bf35-430e-9cad-40f1b296020a" />
+
+All devices on the same network identify under the same network interface. MAC addresses, unlike IP addresses, identify the hardware of the device so packets know where to go. ARP connects layer 2 and 3 so the computer knows where to send data physically. Live packets all have the same default gateway because they are devices on the same network with the same router. Layers 1 and two work together to physically and virtually send data across networks.
 
 ## SOHO Networks
 
