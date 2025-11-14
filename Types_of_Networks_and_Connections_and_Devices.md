@@ -116,3 +116,4 @@ The 'netstat -r' command corresponds to the network layer (layer 3) as it displa
 The 'arp -a' command corresponds to data link layer (layer 2) as it displays the devices mac address table. 
 
 ![screenshots](assets/css/arp-n.png)
+
