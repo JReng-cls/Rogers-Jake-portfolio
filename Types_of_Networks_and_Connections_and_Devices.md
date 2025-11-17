@@ -117,3 +117,34 @@ The 'arp -a' command corresponds to data link layer (layer 2) as it displays the
 
 ![screenshots](assets/css/arp-n.png)
 
+Now lets activate the firewall. A firewall will better secure the device. Use the 'sudo ufw status' command to check if it is on and the 'sudo ufw enable' command if the firewall is inactive:
+
+<img width="747" height="163" alt="image" src="https://github.com/user-attachments/assets/c13d469d-ef3a-44ff-bfea-ea3b89afad0d" />
+
+Now lets configure a new Ubuntu that is 25.10 version for ARM64. Set the VM to bridged mode, Wi-Fi(en1 or 0), virtio-net-pci and a random MAC address. 
+
+Check the IP address using the 'hostname -I' command:
+
+<img width="698" height="43" alt="image" src="https://github.com/user-attachments/assets/e405e3c6-138d-4d3d-a594-65de691193f9" />
+
+Next, ping a classmates using the 'ping' command:
+
+<img width="698" height="256" alt="image" src="https://github.com/user-attachments/assets/b48675d3-4695-4082-8898-40a0e30950f3" />
+
+Now install the traceroute command using 'sudo apt install inetutils-traceroute -y'
+
+Then run the command to see how many hops it takes for data to get from the device to google.com. Run 'traceroute google.com'
+
+<img width="698" height="507" alt="image" src="https://github.com/user-attachments/assets/51c751ba-e65d-4d13-bc74-2db232ca171d" />
+
+The results reveal the different devices the data travelled through by listing IP addresses. Each IP address is a different device that the data travelled to. 
+
+Now lets start a temporary web server on the ubuntu VM that shares the devices home folder.
+
+use the 'python3 -m http.server 8080' command to start the server in the ubuntu vm
+
+next open firefox and type in https://**IP ADDRESS**:8080
+
+SS
+
+This lesson demonstartes how devices communicate through "hops". The traceroute command shows how devices use IP and MAC addresses to know where to send data. The network, data link and physical layers were all encorporated throughout this activity when data is being sent and received. Enabling firewalls better protect your network by not allowing viruses or other hack attempts into the network. The amount of hops that the data took to get to google.com was surprising. This activity shows how real world websites work when a user is trying to use the website from their personal device. The connection is established through ip addresses. If this activity were acomplished at home the amount of hops that it takes to get to google.com would change. 
