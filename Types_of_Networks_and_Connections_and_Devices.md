@@ -56,6 +56,19 @@ This information came from the Exploring IP Addresses in Shared and Bridged Mode
 
 ## Ethernet Cable Construction 
 
+In order to better understand how ethernet cables connect devices to networks, the class constructed ethernet cables. 
+
+First strip the outside casing of the wire to reveal the 4 twisted wires
+
+<img width="758" height="694" alt="image" src="https://github.com/user-attachments/assets/e55f40d5-40fc-496f-8b16-5917fff2316e" />
+
+After that untwist the wires and put them into the J-45 connector in this order: White/Orange, Orange, White/Green, Blue, White/Blue, Green, White/Brown, Brown
+
+<img width="1355" height="728" alt="image" src="https://github.com/user-attachments/assets/cb2ca5c3-b843-4cf2-be4b-fafcbfc829b9" />
+
+After that, crimp the wire and repeat. Then, test your results!
+
+
 
 ## TCP/OSI Networks
 
@@ -88,6 +101,36 @@ Finally run 'sudo tcpdump -c 5' command in order to capture five live packets tr
 <img width="884" height="77" alt="image" src="https://github.com/user-attachments/assets/20bf7087-bf35-430e-9cad-40f1b296020a" />
 
 All devices on the same network identify under the same network interface. MAC addresses, unlike IP addresses, identify the hardware of the device so packets know where to go. ARP connects layer 2 and 3 so the computer knows where to send data physically. Live packets all have the same default gateway because they are devices on the same network with the same router. Layers 1 and two work together to physically and virtually send data across networks.
+
+This information came from the tcp/osi network activity
+
+## Topologies
+
+In order to better understand the different network configurations, topologies were created:
+
+### Star Topology
+
+<img width="1192" height="733" alt="image" src="https://github.com/user-attachments/assets/c6c5b04f-4f22-4f86-af5f-83db06933b2b" />
+
+### Bus Topology
+
+<img width="1042" height="727" alt="image" src="https://github.com/user-attachments/assets/728d3421-649f-41fb-bcb2-7b4454c25985" />
+
+### Ring Topology
+
+<img width="1089" height="715" alt="image" src="https://github.com/user-attachments/assets/7a1345ab-6e3b-4a80-9506-4df46bb9f470" />
+
+### Mesh Topology
+
+<img width="853" height="563" alt="image" src="https://github.com/user-attachments/assets/466b661f-c408-4d7e-a6d7-8ccbfed6f41a" />
+
+### Hybrid Topology
+
+<img width="1481" height="672" alt="image" src="https://github.com/user-attachments/assets/2d2bcbfa-bfe4-49c3-a2ec-147016ed54cc" />
+
+The easiest topology for a small buisness to set up would be a star topology as it is small and would only require one router. The most reliable topology if one connection failed would be a mesh topology as it has redundancy or more than one path for data to take if one fails. The most exspensive topology to implement would be a hybrid as it would require a lot of routers or router extensions as well as many endpoint devices. The school most likely uses a hybrid topology as it has more than one network. Physical layouts effect speed and reliability due to the fact that effective connection withins LANs depends somewhat on device proximity. 
+
+This information came from the Topology Drawing Activity. 
 
 ## SOHO Networks
 
@@ -145,6 +188,9 @@ use the 'python3 -m http.server 8080' command to start the server in the ubuntu 
 
 next open firefox and type in https://**IP ADDRESS**:8080
 
-SS
+When attempting this one the classroom VM the website initially, the searched webserver on firefox was https://192.168.64.5:8080 as that was the IP address provided when the 'hostname -I' command was used. However, the web server responded with a "unsecure connection" error message and the VM terminal showed failed connections. Then a classmate noticed that when the 'python3 -m http.server 8080' command was being used that the terminal read "hosting server on 0.0.0.0". Due to this, https://0.0.0.0:8080 was searched up and firefox autocorrected the IP address to 127.0.0.1. This information was put into flint ai and it was unable to solve the issue. 
 
 This lesson demonstartes how devices communicate through "hops". The traceroute command shows how devices use IP and MAC addresses to know where to send data. The network, data link and physical layers were all encorporated throughout this activity when data is being sent and received. Enabling firewalls better protect your network by not allowing viruses or other hack attempts into the network. The amount of hops that the data took to get to google.com was surprising. This activity shows how real world websites work when a user is trying to use the website from their personal device. The connection is established through ip addresses. If this activity were acomplished at home the amount of hops that it takes to get to google.com would change. 
+
+
+This information came from the SOHO Activity
