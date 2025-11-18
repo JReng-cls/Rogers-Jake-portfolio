@@ -68,7 +68,11 @@ After that untwist the wires and put them into the J-45 connector in this order:
 
 After that, crimp the wire and repeat. Then, test your results! Like so:
 
-https://www.youtube.com/embed/XhEZZfrdfZg
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/XhEZZfrdfZg" 
+title="YouTube video player" frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
 This information came from the Network Cable Construcion Activity
 
