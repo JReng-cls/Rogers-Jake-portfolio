@@ -66,11 +66,11 @@ After that untwist the wires and put them into the J-45 connector in this order:
 
 <img width="1355" height="728" alt="image" src="https://github.com/user-attachments/assets/cb2ca5c3-b843-4cf2-be4b-fafcbfc829b9" />
 
-After that, crimp the wire and repeat. Then, test your results!
+After that, crimp the wire and repeat. Then, test your results! Like so:
 
-<video src="assets/css/ethernettest.MOV" controls width="600">
-  Your browser does not support the video tag.
-</video>
+https://www.youtube.com/embed/XhEZZfrdfZg
+
+This information came from the Network Cable Construcion Activity
 
 ## TCP/OSI Networks
 
