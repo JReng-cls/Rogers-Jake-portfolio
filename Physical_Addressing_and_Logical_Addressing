@@ -1,0 +1,6 @@
+## Physical Addressing and Logical Addressing
+
+In order to begin this activity, first understand a MAC address. Every computer has a hardware network card called a NIC. Each NIC is assigned a permanent hardware identifier when it is manufactured. This identifier is the MAC address or Media Access Control Address. Think of this address as the computers "serial number". 
+
+In order to better understand NICs, diagrams were created:
+
