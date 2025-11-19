@@ -6,7 +6,7 @@ In order to better understand NICs, diagrams were created:
 
 ![screenshot](assets/css/nicdia1.png)
 
-![screenshot](assets/css/nicdia2.png)
+![screenshot](assets/css/ssdia2.png)
 
 The MAC address labeled on the images serves as a destination address for devices sending data to that device. The RJ-45 port is for ethernet cables for a direct network connection between the device and a router. The PCIe connector is needed to power the NIC as well as data transfer. The "main chip" of the NIC is needed for sending and receiving frames. 
 
