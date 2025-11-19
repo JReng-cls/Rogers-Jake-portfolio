@@ -6,3 +6,22 @@ In order to better understand NICs, diagrams were created:
 
 ![screenshot](assets/css/nicdia1.png)
 
+![screenshot](assets/css/nicdia2.png)
+
+The MAC address labeled on the images serves as a destination address for devices sending data to that device. The RJ-45 port is for ethernet cables for a direct network connection between the device and a router. The PCIe connector is needed to power the NIC as well as data transfer. The "main chip" of the NIC is needed for sending and receiving frames. 
+
+“Why is a MAC address considered a physical address, and how does seeing a real NIC help you
+understand this?”
+
+Answer: A MAC address is printed on the NIC, it is determined at the factory when the NIC is created.
+
+MAC addresses are 12 charecters long
+
+example MAc address: 62:d9:a1:34:e0
+
+The first three pairs of the MAC address represent the OUI (Organizationally Unique
+Identifier) - 62:d9:a1
+
+Summary:
+
+MAC addresses are determined when the NIC is created and are printed on the NIC. The MAC address in the VM is virtualized therefore not able to be located by the website https://maclookup.app/. A virtual NIC still requires a MAC address for data tranference. 
