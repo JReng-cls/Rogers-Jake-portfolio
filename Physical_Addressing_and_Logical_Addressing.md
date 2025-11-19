@@ -4,3 +4,5 @@ In order to begin this activity, first understand a MAC address. Every computer 
 
 In order to better understand NICs, diagrams were created:
 
+![screenshot](assets/css/nicdia1.png)
+
