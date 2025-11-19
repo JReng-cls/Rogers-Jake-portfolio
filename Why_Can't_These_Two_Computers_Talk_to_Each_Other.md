@@ -70,3 +70,6 @@ The network layer is responsible for these pinging errors. The two computers out
 ### Reflection
 
 Due to the fact that these computers are on different emulated networks, they are not able to directly communicate between each other through an ethernet cable. The network layer failed in this activity as the two devices had different IP addresses with different default gateways, so the data has to travel between routers first. The UTM prevents two VMs from communicating on host only mode because the two VMs are on two private networks. Switching to shared mode would work because the VMs would "hide" behind the Macs IP which are on the same network. In real world SOHOs, routers and switches prevent these issues by assigning correct IP and MAC addresses to the devices within the LAN. 
+
+This information came from the Why Can't These Two Computers Talk to Each Other activity
+
