@@ -155,5 +155,7 @@ After this process I realize that the majority of milling a PCB board is the des
 
  To access the links to the final product click here:
 
-[Download Jaker_pcbtest.mkc](PCB_Board_Project/Jakerpcbtest.mkc) 
+[files](../PCB%20Board%20Project/Jaker_pcbtest.mkc)
+
+[files](../PCB%20Board%20Project/RogersJ_gcode_pcdboardtest.nc)
 
