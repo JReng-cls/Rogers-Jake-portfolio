@@ -6,7 +6,7 @@ In this project we milled copper PCB boards using the new milling machines in th
 
 Open new 3D project in MakeraCam
 
-![screenshot](assets/css/ss_mkc.png)
+<img width="1597" height="680" alt="image" src="https://github.com/user-attachments/assets/a94c437b-06f7-469a-ab14-069cb1f3a9cf" />
 
 Set material to PCB: Edit→Material→PCB
 
@@ -34,7 +34,7 @@ File→Import PCB→Downloads→Resistance1-PTH.drl→Open
 
 File→Import PCB→Downloads→Resistance1-F_Cu.gbr→Open
 
-![screenshot](ss_files.png)
+<img width="786" height="360" alt="image" src="https://github.com/user-attachments/assets/b7e04366-ddbe-4ba3-b45c-6554b8aa061d" />
 
 Anchor lower left corner:
 
