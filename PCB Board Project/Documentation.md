@@ -4,7 +4,7 @@ In this project we milled copper PCB boards using the new milling machines in th
 
 ## Workflow (Design Phase)
 
-Open new 3D project
+Open new 3D project in MakeraCam
 
 Set material to PCB: Edit→Material→PCB
 
@@ -18,7 +18,7 @@ Z = 1.7mm
 
 Download files from Fab drive: (blue folder named Dubick)
 
-Resistance1-F_Cu.gbr
+Resistance1-F_Cu.gbr 
 
 Resistance1-PTH.drl
 
@@ -148,4 +148,9 @@ Machine should touch down at 25 points on material and then file should run (who
 ## Reflection
 
 After this process I realize that the majority of milling a PCB board is the design phase and ensuring everything is correct. The new milling machines have self-swapping tool abilities allowing the user to walk away from the machine once it is started. This accelerates the rate at which you can finish a project as you can now work on another component while your board is being milled. During this project many issues occured. First, during the design phase we were given incorrect dimensions for the copper board leading to setbacks when we tried to mill. When we realized that we needed to change the dimensions we tried to re open the file in the Makera cam software in order to edit the file. However, we kept recieving a "file opening error" message from the software. After sending the error code to AI we realized that we were not able to open the file due to the files format. In order to open and edit the file design in makera cam the file must be a .mks format. On the contrary, if you wish to open your file in the makera controller then the file must be in gcode.nc format.
- 
+
+ To access the links to the final product click here:
+
+ https://github.com/JReng-cls/Rogers-Jake-portfolio/blob/main/PCB%20Board%20Project/Jaker_pcbtest.mkc
+
+ https://github.com/JReng-cls/Rogers-Jake-portfolio/blob/main/PCB%20Board%20Project/RogersJ_gcode_pcdboardtest.nc
