@@ -37,6 +37,23 @@ MAC addresses are determined when the NIC is created and are printed on the NIC.
 |00:50:56:AA:BB:CC |00:50:56| VMware   | Virtual        | Patterns like AA, BB, CC        |
 |52:54:00:12:34:56 |52:54:00| Noinfo   | N/A            | No noticed patterns             |
 
+**Notice the physical vendors have some patterns within the MAC address such as repeating numbers or letters. Virtualization vendors also need registered OUIs because if not then they could accidentally replicate real OUIs. This activity helps the user understand MAC addresses at layer 2 by explaining how they are assigned and how devices use these to send data across networks.**
+
+<img width="500" height="23" alt="image" src="https://github.com/user-attachments/assets/266155ba-9398-4604-a144-6a79fa1f345f" />
+
 The information in the chart above was found using the website https://maclookup.app/search/result?mac=F0:18:98:AA:BB:CC like so:
 
 <img width="1920" height="851" alt="image" src="https://github.com/user-attachments/assets/0b38d9d6-baba-4f06-811e-602c65284500" />
+
+
+Using the Ubuntu MAC address above (62.d9.a1.34.e0.a7) users can identify the different parts of the address.
+
+The OUI is the first three pairs (62.d9.a1) while the Device Identifier is the last three pairs (34.e0.a7). The OUI represents the first 24 bits of the MAC address and identifies the vendor. The OUI connects the NIC to the manufacturer because every OUI is registered with IEEE which allows the network to recognize who produced the NIC. The OUIs must be unique or address duplication would occur and data transference would not me secure. A MAC address needs a unique second half for the same reasons. This prevents each device from having a different MAC address by creating distinct front halfs and back halfs. Otherwise these addresses would confuse switches and routers trying to send data to a certain address that has two devices linked to it. 
+
+Revisiting the images of the NIC diagrams, notice that MAC addresses are physically printed on the NIC. VM's create its MAC address by hiding behind the address of the desktop computer. Physical and Virtual MAC addresses both have to remain unique from one another, however physical address vendors are created by the VM's manufacturer. 
+
+## Reflection
+
+This activity dives into the ins and outs of MAC addresses. It explains how each MAC address is different from the other in order to prevent data sending and receiving issues. In addition, it covers how to divide MAC addresses into two sets of three (The front half and the back half) in order to reveal OUIs and other identifiers. All of this information is printed in the form of a MAC address on the NIC card inside the device. The MAC address of the NIC is determined at the factory when it is created. 
+
+This information came from the UnderstandingPhysicalAddressing assignment. 
