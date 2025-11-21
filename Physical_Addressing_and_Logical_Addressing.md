@@ -27,12 +27,16 @@ Summary:
 MAC addresses are determined when the NIC is created and are printed on the NIC. The MAC address in the VM is virtualized therefore not able to be located by the website https://maclookup.app/. A virtual NIC still requires a MAC address for data tranference. 
 
 
-| Full MAC Address | OUI    | Vendor   | Type of Vendor | Notes| 
-|------------------|--------|----------|----------------|------|
-|F0:18:98:AA:BB:CC |F0:18:98| Apple    |
-|3C:5A:B4:11:22:33 |3C:5A:B4| Google   |
-|60:45:BD:12:34:56 |60:45:BD| Microsoft|
-|A4:BA:DB:22:33:44 |A4:BA:DB| Dell     |
-|04:1A:04:55:66:77 |04:1A:04| WaveIP   |
-|00:50:56:AA:BB:CC |00:50:56| VMware   |
-|52:54:00:12:34:56 |52:54:00| Noinfo   |
+| Full MAC Address | OUI    | Vendor   | Type of Vendor | Notes                           | 
+|------------------|--------|----------|----------------|---------------------------------|
+|F0:18:98:AA:BB:CC |F0:18:98| Apple    | Physical       | Contains doubles like AA, BB, CC|
+|3C:5A:B4:11:22:33 |3C:5A:B4| Google   | Physical       | Patterns like 11, 22, 33        |
+|60:45:BD:12:34:56 |60:45:BD| Microsoft| Physical       | No noticed patterns             |
+|A4:BA:DB:22:33:44 |A4:BA:DB| Dell     | Physical       | Patterns like 22, 33, 44        |
+|04:1A:04:55:66:77 |04:1A:04| WaveIP   | Virtual        | Patterns like 55, 66, 77        |
+|00:50:56:AA:BB:CC |00:50:56| VMware   | Virtual        | Patterns like AA, BB, CC        |
+|52:54:00:12:34:56 |52:54:00| Noinfo   | N/A            | No noticed patterns             |
+
+The information in the chart above was found using the website https://maclookup.app/search/result?mac=F0:18:98:AA:BB:CC like so:
+
+<img width="1920" height="851" alt="image" src="https://github.com/user-attachments/assets/0b38d9d6-baba-4f06-811e-602c65284500" />
