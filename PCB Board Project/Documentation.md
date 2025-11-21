@@ -110,6 +110,9 @@ Path→Export→Export OR if you want to edit file on milling machine’s comput
 
 Upload file to your folder in Fab google drive
 
+**Images from Mr. Dubicks "MakeraCam_Workflow_presentation-slides"**
+
+Link: [Google Slide](https://docs.google.com/presentation/d/11PUv9J2_wgToiXhO2JqwxZoastqSd0-e3JKC-_NqXdk/edit?usp=sharing)
 ## Workflow (Milling Phase)
 
 Installing material:
