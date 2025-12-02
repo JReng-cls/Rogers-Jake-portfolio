@@ -52,8 +52,45 @@ The OUI is the first three pairs (62.d9.a1) while the Device Identifier is the l
 
 Revisiting the images of the NIC diagrams, notice that MAC addresses are physically printed on the NIC. VM's create its MAC address by hiding behind the address of the desktop computer. Physical and Virtual MAC addresses both have to remain unique from one another, however physical address vendors are created by the VM's manufacturer. 
 
+This information came from the UnderstandingPhysicalAddressing assignment. 
+
+## Dynamic vs. Static Addressing & When to Use Each
+
+Now lets see how devices actually receive the IPv4 and IPv6 addresses
+
+Grab a partner and one partner load onto VM1 which will be the old ubuntu and the other load onto VM2 which is the new linux ubuntu. 
+
+Both VMs run 'ip addr show' like so
+
+VM1:
+
+<img width="889" height="219" alt="image" src="https://github.com/user-attachments/assets/2063a242-a2f0-4bce-9da7-5262157f5b4b" />
+
+VM2:
+
+<img width="625" height="200" alt="image" src="https://github.com/user-attachments/assets/be8a8e62-5dee-427b-9925-f7c29c23713f" />
+
+Now lets view the config files on each VM
+
+VM1:
+
+<img width="889" height="134" alt="image" src="https://github.com/user-attachments/assets/aa2da2ae-7836-4a4b-8a39-a180b80a4823" />
+
+VM2:
+
+<img width="628" height="272" alt="image" src="https://github.com/user-attachments/assets/65b70b7f-62f3-42a7-b2eb-2d0cce4f1d2b" />
+
+Now lets view which netplan file loaded by running 'ls /etc/netplan' on VM1
+
+<img width="612" height="61" alt="image" src="https://github.com/user-attachments/assets/fea4364f-ce1b-483c-b53b-da11b97eea85" />
+
+Dynamic addressing is when networks automatically assigns an IP address to a device when it connects to the network. Static addressing is when a user has to manually assign IP addresses. Networks should employ both for easy reliable and changable addressing. 
+
+
 ## Reflection
 
 This activity dives into the ins and outs of MAC addresses. It explains how each MAC address is different from the other in order to prevent data sending and receiving issues. In addition, it covers how to divide MAC addresses into two sets of three (The front half and the back half) in order to reveal OUIs and other identifiers. All of this information is printed in the form of a MAC address on the NIC card inside the device. The MAC address of the NIC is determined at the factory when it is created. 
 
-This information came from the UnderstandingPhysicalAddressing assignment. 
+
+
+
