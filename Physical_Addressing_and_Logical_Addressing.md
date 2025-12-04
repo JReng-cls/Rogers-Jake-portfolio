@@ -86,6 +86,57 @@ Now lets view which netplan file loaded by running 'ls /etc/netplan' on VM1
 
 Dynamic addressing is when networks automatically assigns an IP address to a device when it connects to the network. Static addressing is when a user has to manually assign IP addresses. Networks should employ both for easy reliable and changable addressing. 
 
+## Configuring and Verifying IP Addresses on a Linux VM
+
+Start by runnong 'ip link show' on VM2 or the linux ubuntu VM like so:
+
+<img width="893" height="111" alt="image" src="https://github.com/user-attachments/assets/0036a784-bc20-4637-93d1-8264a0bb2a1a" />
+
+Notice the active interface: enp0s1
+
+Now lets list the netplan by using the command 'ls /etc/netplan' like so:
+
+<img width="893" height="42" alt="image" src="https://github.com/user-attachments/assets/b46c74b3-d510-46c6-a1de-5597309fe392" />
+
+Notice files such as "00-installer-config.yaml" 
+
+Now lets open the file: 
+
+<img width="893" height="82" alt="image" src="https://github.com/user-attachments/assets/5a703929-a48a-4bc0-a045-2a46c4482ed2" />
+
+Once in the file replace the contents with:
+
+network:
+  version: 2
+  ethernets:
+    enp0s1:
+      dhcp4: no
+      addresses:
+        - 192.168.1.<your unique number>/24
+      gateway4: 192.168.1.1
+      nameservers:
+        addresses:
+          - 8.8.8.8
+            - 1.1.1.1
+
+Now apply those changes by saving and exiting using ctrl+x then use the 'sudo netplan apply' command to add the changes
+
+now run 'ip addr show' and 'ip route show' to confirm that the changes were made:
+
+<img width="893" height="308" alt="image" src="https://github.com/user-attachments/assets/b46ea93f-fe66-4fd2-9834-867862e32d8f" />
+
+You should see a line like: **default via 192.168.1.1 dev enp0s1** as shown above
+
+Now lets test connectivity by running 'ping -c 4 8.8.8.8' like so:
+
+<img width="893" height="598" alt="image" src="https://github.com/user-attachments/assets/369fe887-b5a1-4ef7-9d7f-1899a1221873" />
+
+Notice that the ping does not work and ubuntu says that the host is unreachable when pinging from 192.168.1.1
+
+That 192.168.1.1 address is the defualt gateway address added in earlier. Notice also in the screenshot that when the yaml file configurations are tried, ubuntu yields a warning that the defualt gateway is deprecated. This explains why the ping is unsuccessful. 
+
+Refelcting on this activity notice that yaml files are extremly sensitive and errors can arise just from a single space that is out of place on your file. It is important to run 'sudo netplant try' before running 'sudo network apply' in order to confirm that your adjustments will work efficiently. 
+
 
 ## Reflection
 
