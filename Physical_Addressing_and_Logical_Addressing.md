@@ -139,43 +139,11 @@ Refelcting on this activity notice that yaml files are extremly sensitive and er
 
 This information came from the Configuring and Verifying Activity 
 
-## Dynamic vs. Static
 
-Addresses on devices can be assigned using one of two methods:
-
-Static Addressing - Manually assigned 
-
-Dynamic Addressing - Automatically assigned
-
-Lets explore these methods. Run 'ip addr show' on both VM1 and VM2 to view the active ip addresses on both devices:
-
-VM1:
-
-<img width="874" height="223" alt="image" src="https://github.com/user-attachments/assets/e3674b80-1700-4b65-87a9-50fc26a7abe2" />
-
-VM2:
-
-<img width="849" height="274" alt="image" src="https://github.com/user-attachments/assets/fc156959-5900-4cad-a921-c35da090940a" />
-
-Now lets run 'cat /etc/netplan/*.yaml' to view both devices configuration files:
-
-VM1:
-
-<img width="889" height="134" alt="image" src="https://github.com/user-attachments/assets/067af84e-6c11-405e-99ad-da4e00783058" />
-
-VM2:
-
-<img width="673" height="291" alt="image" src="https://github.com/user-attachments/assets/ff3e86d8-d86c-4172-95d9-ca76b4bf47f3" />
-
-**Note that both of the devices DHCP line is set to true meaning the IP address was automatically assigned**
-
-Dynamic addressing is when a network automatically assigns IP addresses to new devices. Static addressing is the manual assignment of the IP addresses on network devices. Networks should have both in case devices IP addresses need to be changed and so that it saves time. 
-
-This information came from the Dynamic vs. Static Addressing assignment
 
 ## Reflection
 
-This activity dives into the ins and outs of MAC addresses. It explains how each MAC address is different from the other in order to prevent data sending and receiving issues. In addition, it covers how to divide MAC addresses into two sets of three (The front half and the back half) in order to reveal OUIs and other identifiers. All of this information is printed in the form of a MAC address on the NIC card inside the device. The MAC address of the NIC is determined at the factory when it is created. 
+This activity dives into the ins and outs of MAC addresses. It explains how each MAC address is different from the other in order to prevent data sending and receiving issues. In addition, it covers how to divide MAC addresses into two sets of three (The front half and the back half) in order to reveal OUIs and other identifiers. All of this information is printed in the form of a MAC address on the NIC card inside the device. The MAC address of the NIC is determined at the factory when it is created. In addition to MAC addresses, IPv4 and IPv6 addresses are also introduced. Addresses can be assigned manually or automatically(dynamic or static). 
 
 
 
