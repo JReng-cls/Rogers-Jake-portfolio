@@ -156,7 +156,7 @@ The finished screen should look like this:
 
 <img width="939" height="776" alt="image" src="https://github.com/user-attachments/assets/c106233b-c763-49b5-9b6f-c7f4d09d21b7" />
 
-Next click on PC1 and navigat eto FastEthernet0 under Config
+Next click on PC1 and navigate to FastEthernet0 under Config
 
 <img width="947" height="952" alt="image" src="https://github.com/user-attachments/assets/18f0c3e9-d113-4d91-94aa-78285d5bd2d3" />
 
