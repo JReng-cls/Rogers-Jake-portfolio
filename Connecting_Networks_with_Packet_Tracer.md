@@ -2,13 +2,21 @@
 
 In this activity we will configure two different networks connected to one another and ping a device on one network from the other.
 
+### Network Devices
+
+---
+
 To start Drag and drop two 2911 Routers onto the page from the Network Devices section
 
 <img width="929" height="193" alt="image" src="https://github.com/user-attachments/assets/d5802987-11f7-4dbb-b5ca-f5b33ed82e19" />
 
+---
+
 Next, click on the "End Devices" section and drag and drop one PC below both Routers. Your network should now look like this:
 
 <img width="931" height="755" alt="image" src="https://github.com/user-attachments/assets/484af78e-34bb-48cc-9bdc-c7b905ed5d67" />
+
+---
 
 Now lets connect the devices. Click on the Connections Tab and Select the Copper Cross Over Cable
 
@@ -21,6 +29,8 @@ Your network should now lool like this:
 <img width="703" height="535" alt="image" src="https://github.com/user-attachments/assets/3200c040-ed25-472c-9f9d-8be7b8c03e75" />
 
 **Notice the red triangles on the wire, this shows that the interface is currently down**
+
+---
 
 Next Click on the Copper Straight-Through cable
 
@@ -35,6 +45,8 @@ Use the same copper straight through cable to connect PC1 and Router1 via PC1’
 Your Network should now look like this:
 
 <img width="823" height="547" alt="image" src="https://github.com/user-attachments/assets/664863dd-e8f2-4789-bba9-4208bf34b85f" />
+
+---
 
 Lets start configuring the network, start by clicking on Router1 and moving to the CLI tab
 
@@ -98,6 +110,8 @@ The finished screen should look like this:
 
 <img width="940" height="775" alt="image" src="https://github.com/user-attachments/assets/8b162d46-4181-41a3-97e8-86e33169c12b" />
 
+---
+
 Next lets exit out of that and click on Router2. Navigate to the CLI tab and enter these commands to configure Router2
 
 1. **Router2> enable**
@@ -156,17 +170,23 @@ The finished screen should look like this:
 
 <img width="939" height="776" alt="image" src="https://github.com/user-attachments/assets/c106233b-c763-49b5-9b6f-c7f4d09d21b7" />
 
+---
+
 Next click on PC1 and navigate to FastEthernet0 under Config
 
 <img width="947" height="952" alt="image" src="https://github.com/user-attachments/assets/18f0c3e9-d113-4d91-94aa-78285d5bd2d3" />
 
 Enter in the IPv4 Address 192.168.10.2 and the Subnet mask 255.255.255.0. This gives PC1 a unique identifier in the 192.168.10.0/24 subnet. Without this IP address, the PC cannot communicate on the network. This IP address must match the subnet of the routers so that they can communicate with each other. The 255.255.255.0 defines which portion of the IP is the network and which is the host. This ensures that PC1 knows all addresses with 192.168.10.x are local. 
 
+---
+
 Next go to the Settings tab under config and enter in the default gateway 192.168.10.1. This tells PC1 where to send traffic destined for outside its subnet. Router1’s G0/0 is the gateway to other networks. Without this, PC1 can’t reach PC2.
 
 The Settings tab should now look like this: 
 
 <img width="935" height="940" alt="image" src="https://github.com/user-attachments/assets/234c10bb-35f4-44b6-a85a-b6f8943dcecb" />
+
+---
 
 Next, exit out and click on PC2 and go to the same config tab
 
@@ -175,6 +195,8 @@ Under settings enter in the default gateway 192.168.20.1. This points PC2 to Rou
 The settings tab should now look like this on PC2:
 
 <img width="933" height="947" alt="image" src="https://github.com/user-attachments/assets/63378b03-931f-4351-af99-4dff12cb39a8" />
+
+---
 
 Under the FastEthernet0 tab enter in the IPv4 address 192.168.10.2 and the Subnet Mask 255.255.255.0
 
@@ -235,3 +257,4 @@ Open up PC2’s Command Prompt and enter ‘ping 192.168.10.2’ (PC1’s IP add
 The ping fails! Congratulations you have successfully setup a firewall
 
 ---
+
