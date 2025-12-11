@@ -7,3 +7,7 @@ Endpoint devices would be the easiest for an attacker to compromise because usua
 
 ### LAN Threat Scenario Rotation
 
+<img width="628" height="820" alt="image" src="https://github.com/user-attachments/assets/b99c8a05-9cab-42e5-a5d5-0f07f77bed5d" />
+
+The groups most confident hypotheses was the MAC address flooding. This is due to the lack of reasons for thousands of MAC addresses to appear on one port on a switch. The scenario that was hardest to interpret was the broadcast domain scenario. However, once a group member suggested that open ports could be abused to broadcast phishing attacks on the network the scenario became easy. Talking with another pair helped us to realize the amount of possibilities that could result in each scenario. A particular pattern noticed was that all of the situations resulted in hackers taking advantage of vulnerabilities revealed by user error. 
+
