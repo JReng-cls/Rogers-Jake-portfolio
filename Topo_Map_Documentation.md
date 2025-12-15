@@ -368,7 +368,7 @@ Ensure that when the machine picks up the probe device that a red dot appears be
 
 Finished product:
 
-![screenshot](assets/css/Finished_Wood.png)
+![screenshot](assets/css/Finished_Wood.jpg)
 
 ## Reflection
 
