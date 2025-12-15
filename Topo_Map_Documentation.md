@@ -380,7 +380,6 @@ Use the raw GitHub URL which will serve the file for download. Replace YOUR_OWNE
 	&nbsp;—&nbsp;<a href="/assets/css/Rogers_Topo.zip" download>Download from site</a>
 </p>
 
-> Note: If someone opens this page on github.com and the browser opens the file instead of downloading it, they can right-click the link and choose "Save link as..." or use the Releases section to attach the file (release assets download immediately).
 
 ## Reflection
 
