@@ -350,3 +350,26 @@ after another.**Ended up with a .cnc file**
 
 Open up Cavera controller
 
+In the bottom right corner of the controller screen click on the file icon to upload your .cnc file from the steps before
+
+![screenshot](assets/css/SS-fileupload.png)
+
+After the file has been uploaded Switch to the display interface
+
+![screenshot](assets/css/ss-gcodeview.png)
+
+Ensure auto leveling is on
+
+![screenshot](assets/css/Auto_level.png)
+
+Run the cnc code
+
+Ensure that when the machine picks up the probe device that a red dot appears below the probe
+
+Finished product:
+
+![screenshot](assets/css/Finished_Wood.png)
+
+## Reflection
+
+This project taught me how to use aspire to create designs and mill them out on a Cavera CNC machine. Some issues that I encountered during this projet were that at the start we were given incorrect dimensions. Without the correct dimensions, a user could potentially set the cut depth too low and drill into the bed of the machine. Another issue was the file format to upload into the cnc machine. We were unsure whether the file format should be a .ncgcode or .cnc, however, we discovered that the .cnc is the correct format. The last issue encountered was that when I selected the tools for the roughing tool path I selected the correct tool and size but not under the cavera tools section. This led to an error when trying to save all my toolpaths to one file. After asking flint ai I discovered my issue and changed the tool. After that the toolpaths saved and I was able to mill my topography map. 
