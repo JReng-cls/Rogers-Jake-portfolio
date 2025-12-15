@@ -370,7 +370,7 @@ Finished product:
 
 ![screenshot](assets/css/Finished_Wood.jpg)
 
-[.cnc File Link](assets/css/Rogers_Topo.cnc)
+[.cnc File Link](assets/css/Rogers_Topo.zip)
 
 ## Reflection
 
