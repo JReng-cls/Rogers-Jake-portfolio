@@ -25,5 +25,5 @@ For my Senior engineering capstone project I decided to build a pomodor study ch
 - Day 15: I was able to create code that ran a stopwatch with the same "Study time:" above the stopwatch
 - Day 16: I added the pomodoro piece to my code by making the OLED display a Study time for 15 seconds then switch to break time for 5 seconds. These are not the typical time increments for the pomodoro study method so that I could test quicker
 - Day 17: I added a buzzer speaker to my circuit with just a power and ground pin. I adjusted my code so that the speaker buzzes in between intervals. 
-
+- Day 18: Broke chair file down into pieces so that I could arrange them to be efficient during cuts. I decided that when I cut these pieces out with wood on the shoptbot that I will use domino inserts to hold the pieces together.
 
