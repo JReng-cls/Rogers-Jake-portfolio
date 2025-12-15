@@ -370,7 +370,17 @@ Finished product:
 
 ![screenshot](assets/css/Finished_Wood.jpg)
 
-[.cnc File Link](assets/css/Rogers_Topo.zip)
+[<!--
+Direct download link (recommended):
+Use the raw GitHub URL which will serve the file for download. Replace YOUR_OWNER and YOUR_REPO if different.
+-->]
+<p>
+	<a href="https://raw.githubusercontent.com/JReng-cls/Rogers-Jake-portfolio/main/assets/css/Rogers_Topo.zip" download>Download .cnc (zip)</a>
+	<!-- Fallback: link to the site-hosted file (works on GitHub Pages) -->
+	&nbsp;—&nbsp;<a href="/assets/css/Rogers_Topo.zip" download>Download from site</a>
+</p>
+
+> Note: If someone opens this page on github.com and the browser opens the file instead of downloading it, they can right-click the link and choose "Save link as..." or use the Releases section to attach the file (release assets download immediately).
 
 ## Reflection
 
