@@ -348,3 +348,5 @@ after another.**Ended up with a .cnc file**
 
 ## Milling Phase
 
+Open up Cavera controller
+
