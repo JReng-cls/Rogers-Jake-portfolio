@@ -370,6 +370,8 @@ Finished product:
 
 ![screenshot](assets/css/Finished_Wood.jpg)
 
+[.cnc File Link](assets/css/Rogers_Topo.cnc)
+
 ## Reflection
 
 This project taught me how to use aspire to create designs and mill them out on a Cavera CNC machine. Some issues that I encountered during this projet were that at the start we were given incorrect dimensions. Without the correct dimensions, a user could potentially set the cut depth too low and drill into the bed of the machine. Another issue was the file format to upload into the cnc machine. We were unsure whether the file format should be a .ncgcode or .cnc, however, we discovered that the .cnc is the correct format. The last issue encountered was that when I selected the tools for the roughing tool path I selected the correct tool and size but not under the cavera tools section. This led to an error when trying to save all my toolpaths to one file. After asking flint ai I discovered my issue and changed the tool. After that the toolpaths saved and I was able to mill my topography map. 
