@@ -20,9 +20,7 @@ By using the **Scale, move/copy, and line** tools on fusion360 I adjusted the he
 
 **Side of chair broken into links that meet dimension requirements**
 
-[Download DXF](https://raw.githubusercontent.com/JReng-cls/Rogers-Jake-portfolio/main/assets/css/Bohem_Tall_NS.dxf)
-
-
+[Download DXF with Pieces to Side of Chair](https://raw.githubusercontent.com/JReng-cls/Rogers-Jake-portfolio/main/assets/css/Bohem_Tall_NS.dxf)
 
 These links assemble to create a side frame 33 inches tall so that I can place the seat 17 inches off the ground
 
@@ -31,7 +29,61 @@ These links assemble to create a side frame 33 inches tall so that I can place t
 **Pieces cut out on cardboard and assembled**
 
 When I cut this out using the shopbot cnc machine I will need two of these sides to create a full chair 
+
 ## Rasberry Pi Timer
+
+For the electronics of my project I will be creating a circuit with a screen that displays a timer that keeps track of the pomodoro segments for the user. 
+
+For my first circuit I used an LCD display with a Raspberry pi pico h
+
+<img width="2237" height="1051" alt="image" src="https://github.com/user-attachments/assets/038efd5b-1630-4d1f-895c-85ce70603e59" />
+
+**Starter circuit on Wokwi.com with raspberry pi pico and lcd display**
+
+Using this circuit I was able to recreate the pinout on a breadboard and display a stopwatch timer on the LCD display
+
+<img width="1356" height="702" alt="image" src="https://github.com/user-attachments/assets/976d1ede-43e2-4c7b-9944-30554ae62f7b" />
+
+**Circuit with raspberry pi pico h chip connected to LCD display displaying a stopwatch tracking hours:minutes:seconds**
+
+**Code used for LCD display:**
+
+    #include <LiquidCrystal.h>
+
+    LiquidCrystal lcd(12, 11, 10, 9, 8, 7);
+
+    unsigned long previousMillis = 0;
+    unsigned long elapsedSeconds = 0;
+
+    void setup() {
+    lcd.begin(16, 2);
+    lcd.setCursor(0, 0);
+    lcd.print("Stopwatch Running");
+    }
+
+    void loop() {
+      unsigned long currentMillis = millis();
+
+    // Update every 1000 ms (1 second)
+    if (currentMillis - previousMillis >= 1000) {
+    previousMillis = currentMillis;
+    elapsedSeconds++;
+
+     //Calculate hours, minutes, seconds
+    int hours = elapsedSeconds / 3600;
+    int minutes = (elapsedSeconds % 3600) / 60;
+    int seconds = elapsedSeconds % 60;
+
+    // Format time as HH:MM:SS
+    char timeBuffer[9];
+    sprintf(timeBuffer, "%02d:%02d:%02d", hours, minutes, seconds);
+
+    // Display on second row
+    lcd.setCursor(3, 1); // Centered-ish
+    lcd.print(timeBuffer);
+      }
+    }
+
 
 ## Daily Journal
 
