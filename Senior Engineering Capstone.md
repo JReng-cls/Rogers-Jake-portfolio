@@ -19,8 +19,7 @@ By using the **Scale, move/copy, and line** tools on fusion360 I adjusted the he
 <img width="974" height="161" alt="image" src="https://github.com/user-attachments/assets/69da434a-a282-4584-b76b-f5be8a1510ec" />
 
 **Side of chair broken into links that meet dimension requirements**
-
-[Link to DXF file with Chair Pieces]
+<a href="https://jreng-cls.github.io/Rogers-Jake-portfolio/Bohem_Tall_NS.dxf" target="_blank">Download Example PDF</a>
 
 These links assemble to create a side frame 33 inches tall so that I can place the seat 17 inches off the ground
 
