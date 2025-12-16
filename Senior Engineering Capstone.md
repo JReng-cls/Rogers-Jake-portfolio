@@ -84,7 +84,21 @@ Using this circuit I was able to recreate the pinout on a breadboard and display
       }
     }
 
+After seeing the display on the LCD I noticed that I couldn't see the timer very well from a view directly above the circuit. Mrs. Morrow suggested using a four pin OLED display 
 
+<img width="2237" height="1056" alt="image" src="https://github.com/user-attachments/assets/13300775-9b3e-4177-8061-2ac480834bc6" />
+
+**Wokwi circuit for Raspberry pi pico connected to OLED display**
+
+<img width="1561" height="595" alt="image" src="https://github.com/user-attachments/assets/2f52f873-9379-45b5-94a4-8c86d74ac7a6" />
+
+**Wokwi circuit recreated on breadboard. OLED displaying test text**
+
+After creating this test circuit I used the same circuit and adjusted my code to add in a stopwatch that switches between study time and break time to recreate the pomodoro method. I also added in a buzzer speaker via another raspberry pi pin that buzzes everytime the segment switches from study to break or break to study
+
+https://www.youtube.com/watch?v=VmAZWTmpMYU
+
+[Working Raspberry Pi Pico h circuit with OLED display and buzzer speaking switching between study and break time]
 ## Daily Journal
 
 - Day 1: On day one I spent my time searching for ergonomic chair designs to influence my own. I decided on creating a relatively smaller chair to support my budget. I decided on making the chair out of two different kinds of wood. One type that is harder or sturdier for the side/legs of the chair for support, and another type for the backrest and seat of the chair
