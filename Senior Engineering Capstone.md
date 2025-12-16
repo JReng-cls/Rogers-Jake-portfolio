@@ -96,9 +96,11 @@ After seeing the display on the LCD I noticed that I couldn't see the timer very
 
 After creating this test circuit I used the same circuit and adjusted my code to add in a stopwatch that switches between study time and break time to recreate the pomodoro method. I also added in a buzzer speaker via another raspberry pi pin that buzzes everytime the segment switches from study to break or break to study
 
-https://www.youtube.com/watch?v=VmAZWTmpMYU
+<figure>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/VmAZWTmpMYU" title="Working Raspberry Pi Pico h circuit with OLED display and buzzer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <figcaption>Working Raspberry Pi Pico h circuit with OLED display and buzzer speaking switching between study and break time</figcaption>
+</figure>
 
-[Working Raspberry Pi Pico h circuit with OLED display and buzzer speaking switching between study and break time]
 ## Daily Journal
 
 - Day 1: On day one I spent my time searching for ergonomic chair designs to influence my own. I decided on creating a relatively smaller chair to support my budget. I decided on making the chair out of two different kinds of wood. One type that is harder or sturdier for the side/legs of the chair for support, and another type for the backrest and seat of the chair
