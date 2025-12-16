@@ -4,6 +4,31 @@ For my Senior engineering capstone project I decided to build a pomodor study ch
 
 ## Side Design
 
+I began by using a classroom chair as a reference design for my chair. I decided on creating two sides of the chair first anf then connecting across via mortison tenon joints. Using a classroom chair as a reference was benificial as they are smaller and would require less materials to replicate. I decided on making the chair seat at least 15 inches off of the ground. I wanted arms on the chair in order to integrate the electronics in them. 
+
+On https://www.etsy.com I found a file for a bohemian chair and a tutorial on how to make it. However when I first imported the file via dxf on fusion360 the height was 324 inches tall. I re-inmported the deisign to millimeters in order to scale the size down. 
+
+<img width="564" height="457" alt="image" src="https://github.com/user-attachments/assets/62fd3327-1945-4916-83ea-c89ae4fbf918" />
+
+**Initial file imported in millimeters**
+
+This chair was still not meeting the desired dimensions as it was only 24 inches tall and 45 inches wide. However the file did solve a cutting issue by breaking the side of the chair into pieces so that I would be able to arrange them on a smaller piece of wood.
+
+By using the **Scale, move/copy, and line** tools on fusion360 I adjusted the height and width of the side to meet my desired dimensions
+
+<img width="974" height="161" alt="image" src="https://github.com/user-attachments/assets/69da434a-a282-4584-b76b-f5be8a1510ec" />
+
+**Side of chair broken into links that meet dimension requirements**
+
+[Link to DXF file with Chair Pieces]
+
+These links assemble to create a side frame 33 inches tall so that I can place the seat 17 inches off the ground
+
+<img width="1145" height="1025" alt="image" src="https://github.com/user-attachments/assets/a64ad563-a1e5-416d-8690-bd452c456609" />
+
+**Pieces cut out on cardboard and assembled**
+
+When I cut this out using the shopbot cnc machine I will need two of these sides to create a full chair 
 ## Rasberry Pi Timer
 
 ## Daily Journal
