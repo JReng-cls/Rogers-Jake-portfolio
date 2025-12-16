@@ -8,7 +8,7 @@ I began by using a classroom chair as a reference design for my chair. I decided
 
 On https://www.etsy.com I found a file for a bohemian chair and a tutorial on how to make it. However when I first imported the file via dxf on fusion360 the height was 324 inches tall. I re-inmported the deisign to millimeters in order to scale the size down. 
 
-<img width="564" height="457" alt="image" src="https://github.com/user-attachments/assets/62fd3327-1945-4916-83ea-c89ae4fbf918" />
+<img style="max-width:100%;height:auto;" alt="image" src="https://github.com/user-attachments/assets/62fd3327-1945-4916-83ea-c89ae4fbf918" />
 
 **Initial file imported in millimeters**
 
@@ -16,7 +16,7 @@ This chair was still not meeting the desired dimensions as it was only 24 inches
 
 By using the **Scale, move/copy, and line** tools on fusion360 I adjusted the height and width of the side to meet my desired dimensions
 
-<img width="974" height="161" alt="image" src="https://github.com/user-attachments/assets/69da434a-a282-4584-b76b-f5be8a1510ec" />
+<img style="max-width:100%;height:auto;" alt="image" src="https://github.com/user-attachments/assets/69da434a-a282-4584-b76b-f5be8a1510ec" />
 
 **Side of chair broken into links that meet dimension requirements**
 
@@ -24,7 +24,7 @@ By using the **Scale, move/copy, and line** tools on fusion360 I adjusted the he
 
 These links assemble to create a side frame 33 inches tall so that I can place the seat 17 inches off the ground
 
-<img width="1145" height="1025" alt="image" src="https://github.com/user-attachments/assets/a64ad563-a1e5-416d-8690-bd452c456609" />
+<img style="max-width:100%;height:auto;" alt="image" src="https://github.com/user-attachments/assets/a64ad563-a1e5-416d-8690-bd452c456609" />
 
 **Pieces cut out on cardboard and assembled**
 
@@ -36,13 +36,13 @@ For the electronics of my project I will be creating a circuit with a screen tha
 
 For my first circuit I used an LCD display with a Raspberry pi pico h
 
-<img width="2237" height="1051" alt="image" src="https://github.com/user-attachments/assets/038efd5b-1630-4d1f-895c-85ce70603e59" />
+<img style="max-width:100%;height:auto;" alt="image" src="https://github.com/user-attachments/assets/038efd5b-1630-4d1f-895c-85ce70603e59" />
 
 **Starter circuit on Wokwi.com with raspberry pi pico and lcd display**
 
 Using this circuit I was able to recreate the pinout on a breadboard and display a stopwatch timer on the LCD display
 
-<img width="1356" height="702" alt="image" src="https://github.com/user-attachments/assets/976d1ede-43e2-4c7b-9944-30554ae62f7b" />
+<img style="max-width:100%;height:auto;" alt="image" src="https://github.com/user-attachments/assets/976d1ede-43e2-4c7b-9944-30554ae62f7b" />
 
 **Circuit with raspberry pi pico h chip connected to LCD display displaying a stopwatch tracking hours:minutes:seconds**
 
@@ -86,11 +86,11 @@ Using this circuit I was able to recreate the pinout on a breadboard and display
 
 After seeing the display on the LCD I noticed that I couldn't see the timer very well from a view directly above the circuit. Mrs. Morrow suggested using a four pin OLED display 
 
-<img width="2237" height="1056" alt="image" src="https://github.com/user-attachments/assets/13300775-9b3e-4177-8061-2ac480834bc6" />
+<img style="max-width:100%;height:auto;" alt="image" src="https://github.com/user-attachments/assets/13300775-9b3e-4177-8061-2ac480834bc6" />
 
 **Wokwi circuit for Raspberry pi pico connected to OLED display**
 
-<img width="1561" height="595" alt="image" src="https://github.com/user-attachments/assets/2f52f873-9379-45b5-94a4-8c86d74ac7a6" />
+<img style="max-width:100%;height:auto;" alt="image" src="https://github.com/user-attachments/assets/2f52f873-9379-45b5-94a4-8c86d74ac7a6" />
 
 **Wokwi circuit recreated on breadboard. OLED displaying test text**
 
