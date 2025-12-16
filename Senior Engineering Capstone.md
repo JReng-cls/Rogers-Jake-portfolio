@@ -2,6 +2,13 @@
 
 For my Senior engineering capstone project I decided to build a pomodor study chair. The chair will be constructed of wood with a circuit in the arm of the chair that uses the pomodoro study method by keeping track of the study/break intervals. The chair will also encoporate a speaker to notify the user when they should switch from study to break or the other way around. 
 
+## Bill of Materials
+
+So far I only have one item to buy which is a 3/4"x4'x8' cabinet grabe birch plywood piece to cut the sides of my chair out of. 
+
+Wood - $79.58 - https://www.homedepot.com/p/Columbia-Forest-Products-3-4-in-x-4-ft-x-8-ft-PureBond-Birch-Plywood-165921/100077837#see-more-details
+
+
 ## Side Design
 
 I began by using a classroom chair as a reference design for my chair. I decided on creating two sides of the chair first anf then connecting across via mortison tenon joints. Using a classroom chair as a reference was benificial as they are smaller and would require less materials to replicate. I decided on making the chair seat at least 15 inches off of the ground. I wanted arms on the chair in order to integrate the electronics in them. 
