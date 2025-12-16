@@ -20,7 +20,7 @@ By using the **Scale, move/copy, and line** tools on fusion360 I adjusted the he
 
 **Side of chair broken into links that meet dimension requirements**
 
-[ Download DXF File With Side Pieces](https://raw.githubusercontent.com/JReng-cls/Rogers-Jake-portfolio/refs/heads/main/assets/css/Bohem_Tall_NS.dxf)
+[Download DXF](https://raw.githubusercontent.com/JReng-cls/Rogers-Jake-portfolio/main/assets/css/Bohem_Tall_NS.dxf)
 
 
 
