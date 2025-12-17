@@ -128,4 +128,7 @@ After creating this test circuit I used the same circuit and adjusted my code to
 - Day 16: I added the pomodoro piece to my code by making the OLED display a Study time for 15 seconds then switch to break time for 5 seconds. These are not the typical time increments for the pomodoro study method so that I could test quicker
 - Day 17: I added a buzzer speaker to my circuit with just a power and ground pin. I adjusted my code so that the speaker buzzes in between intervals. 
 - Day 18: Broke chair file down into pieces so that I could arrange them to be efficient during cuts. I decided that when I cut these pieces out with wood on the shoptbot that I will use domino inserts to hold the pieces together.
+- Day 19: Cut pieces out on cardboard to test size. Desired dimensions were still not met
+- Day 20: adjusted the height of the chair in fusion360 and broke it back down into pieces for cutting
+- Day 21: test cut out the chair on cardboard
 
