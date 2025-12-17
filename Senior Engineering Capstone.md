@@ -105,7 +105,7 @@ After creating this test circuit I used the same circuit and adjusted my code to
 
 <figure>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/VmAZWTmpMYU" title="Working Raspberry Pi Pico h circuit with OLED display and buzzer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <figcaption>Working Raspberry Pi Pico h circuit with OLED display and buzzer speaking switching between study and break time</figcaption>
+  <figcaption>[Working Raspberry Pi Pico h circuit with OLED display and buzzer speaking switching between study and break time]</figcaption>
 </figure>
 
 ## Daily Journal
