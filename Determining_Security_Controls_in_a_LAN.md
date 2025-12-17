@@ -11,3 +11,7 @@ Endpoint devices would be the easiest for an attacker to compromise because usua
 
 The groups most confident hypotheses was the MAC address flooding. This is due to the lack of reasons for thousands of MAC addresses to appear on one port on a switch. The scenario that was hardest to interpret was the broadcast domain scenario. However, once a group member suggested that open ports could be abused to broadcast phishing attacks on the network the scenario became easy. Talking with another pair helped us to realize the amount of possibilities that could result in each scenario. A particular pattern noticed was that all of the situations resulted in hackers taking advantage of vulnerabilities revealed by user error. 
 
+This information came from the Card Scenario Activity
+
+## Apropriate Security Controls/Common Vulnerabilities Within Simple LAN
+
