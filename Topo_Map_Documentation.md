@@ -1,4 +1,10 @@
-### Topography Map Documentation
+---
+layout: page
+title: "Topo Map Documentation"
+permalink: /Topo_Map_Documentation/
+---
+
+# Topo Map Documentation
 
 This is the steps for creating a topography map with Aspire and milling it out on a Cavera CNC machine.
 
