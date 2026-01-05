@@ -37,6 +37,14 @@ VM2 should get replies that look like this:
 
 <img width="889" height="823" alt="image" src="https://github.com/user-attachments/assets/c3b22995-1a0c-482a-b532-a677e702ce85" />
 
+## Hacker Diagram
+
+In order to visualize hacker attempts on a LAN, diagrams were created. 
+
+<img width="991" height="580" alt="image" src="https://github.com/user-attachments/assets/cc728cf5-ce19-4b84-b2d8-e7255bbac131" />
+
+This diagram represents a MAC flooding attack in which the hacker floods one of the switches ports with thousands of MAC addresses forcing it into a "fail open" state giving the hacker access 
+
 ### Reflection Paragraph
 
 This information reveals that to a ping a device the sender needs the destination device and needs to be on the same LAN using these commands. ARP assumes these devices are trustworthy because they are within the same LAN. Because ARP trust devices without verification it makes ARP vulnerable to spoofing. Bridged mode was required for this lab so that both VMs would be on the same LAN.
