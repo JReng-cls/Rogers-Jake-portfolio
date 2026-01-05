@@ -4,11 +4,16 @@ For my Senior engineering capstone project I decided to build a pomodor study ch
 
 ## Bill of Materials
 
-So far I only have one item to buy which is a 3/4"x4'x8' cabinet grabe birch plywood piece to cut the sides of my chair out of. 
+| Item                                           | Amount | Price  | Link                                                                                                                                          | Notes |
+|------------------------------------------------|--------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------|-------|
+| 3/4 in. x 4 ft. x 8 ft. PureBond Birch Plywood | 1x     | $79.58 | https://www.homedepot.com/p/Columbia-Forest-Products-3-4-in-x-4-ft-x-8-ft-PureBond-Birch-Plywood-165921/100077837#see-more-details            |        |
+| Raspberry Pi Pico h Chip                       | 1x     | $5.00  | https://www.mouser.com/ProductDetail/Raspberry-Pi/SC0917?qs=T%252BzbugeAwjjvYEYcRJk%252Bxw%3D%3D&mgh=1&srsltid=AfmBOoohrSo6VDAgjWLN8hHqMCyGG  | Found In fab lab | R29VT3UCDAJBrDHc-rXecShZtpb-U
+| 4 Pin OLED Display                             | 1x     | $3.23  | https://www.ebay.com/itm/401468377369?chn=ps&mkevt=1&mkcid=28&google_free_listing_action=view_item&srsltid=AfmBOoqm31r2Kdil2vnQtadq7cFn_M4RcuxbxaOPPIXMMvq-YOSKluLk8E0&com_cvv=8fb3d522dc163aeadb66e08cd7450cbbdddc64c6cf2e8891f6d48747c6d56d2c          | Found in FabLab | 
 
-Wood - $79.58 - https://www.homedepot.com/p/Columbia-Forest-Products-3-4-in-x-4-ft-x-8-ft-PureBond-Birch-Plywood-165921/100077837#see-more-details
 
+## Design Specs
 
+The project will be made primarily out of birch cabinet grade plywood. Both sides will be cut out then I will connect the two sides using mortison tennon joints. The side will have to be cut into pieces in order to not waste materials. Once the side pieces are cut I will assemble them using domino inserts. This project will be for me and tested by me. This project is a semi-portable indoor project. I will be able to move it from room to room but it will stay stationary for most of the usage. The project will not connect to the internet nor bluetooth as I am using a Raspberry Pi Pico h. I will be using the laser cutter for test cuts on cardboard as well as the Shopbot for the test and final cuts on wood. The inputs of the project are limited to the user turning the device off and on. The Outputs are the display system as well as the sound system that tells the user when to study and when to take a break. The only inspiration for this project comes from the side chair file. My project differs from this inspiration as I scaled the chair to be less wide and taller. In addition, I changed the way the original creator cut the sides into pieces. 
 ## Side Design
 
 I began by using a classroom chair as a reference design for my chair. I decided on creating two sides of the chair first anf then connecting across via mortison tenon joints. Using a classroom chair as a reference was benificial as they are smaller and would require less materials to replicate. I decided on making the chair seat at least 15 inches off of the ground. I wanted arms on the chair in order to integrate the electronics in them. 
