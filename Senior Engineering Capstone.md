@@ -1,4 +1,4 @@
-### Pomodoro Study Chair
+# Pomodoro Study Chair
 
 For my Senior engineering capstone project I decided to build a pomodoro study chair. The chair will be constructed of wood with a circuit in the arm of the chair that uses the pomodoro study method by keeping track of the study/break intervals. The chair will also encoporate a speaker to notify the user when they should switch from study to break or the other way around. The goal of this project is to create a device that efficiently keeps track of study and break intervals for the user. 
 
