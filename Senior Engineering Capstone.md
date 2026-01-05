@@ -19,7 +19,8 @@ The project will be made primarily out of birch cabinet grade plywood. Both side
 
 I began by using a classroom chair as a reference design for my chair. I decided on creating two sides of the chair first anf then connecting across via mortison tenon joints. Using a classroom chair as a reference was benificial as they are smaller and would require less materials to replicate. I decided on making the chair seat at least 15 inches off of the ground. I wanted arms on the chair in order to integrate the electronics in them. 
 
-On https://www.etsy.com I found a file for a bohemian chair and a tutorial on how to make it. However when I first imported the file via dxf on fusion360 the height was 324 inches tall. I re-imported the deisign to millimeters in order to scale the size down. 
+On https://www.etsy.com I found a file for a bohemian chair and a tutorial on how to make it. However when I first imported the file via dxf on fusion360 the height was 324 inches tall. I re-imported the deisign to millimeters in order to scale the size down. [ Link to Original Bohemian Chair File 
+](https://www.etsy.com/listing/1877877463/boho-cafe-chair-dwg-file-cnc-ready?ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=bohemian+chair+wooden+cnc+file&ref=sr_gallery-1-1&dd=1&content_source=df3e02be-bac3-442c-a1a9-f096acadfbee%253ALTebcd00b583ed9eb0f54aeb9234a71060b342c6ad&organic_search_click=1&logging_key=df3e02be-bac3-442c-a1a9-f096acadfbee%3ALTebcd00b583ed9eb0f54aeb9234a71060b342c6ad)
 
 <img style="max-width:100%;height:auto;" alt="image" src="https://github.com/user-attachments/assets/62fd3327-1945-4916-83ea-c89ae4fbf918" />
 
