@@ -1,6 +1,6 @@
 ### Pomodoro Study Chair
 
-For my Senior engineering capstone project I decided to build a pomodor study chair. The chair will be constructed of wood with a circuit in the arm of the chair that uses the pomodoro study method by keeping track of the study/break intervals. The chair will also encoporate a speaker to notify the user when they should switch from study to break or the other way around. 
+For my Senior engineering capstone project I decided to build a pomodoro study chair. The chair will be constructed of wood with a circuit in the arm of the chair that uses the pomodoro study method by keeping track of the study/break intervals. The chair will also encoporate a speaker to notify the user when they should switch from study to break or the other way around. The goal of this project is to create a device that efficiently keeps track of study and break intervals for the user. 
 
 ## Bill of Materials
 
@@ -14,11 +14,12 @@ For my Senior engineering capstone project I decided to build a pomodor study ch
 ## Design Specs
 
 The project will be made primarily out of birch cabinet grade plywood. Both sides will be cut out then I will connect the two sides using mortison tennon joints. The side will have to be cut into pieces in order to not waste materials. Once the side pieces are cut I will assemble them using domino inserts. This project will be for me and tested by me. This project is a semi-portable indoor project. I will be able to move it from room to room but it will stay stationary for most of the usage. The project will not connect to the internet nor bluetooth as I am using a Raspberry Pi Pico h. I will be using the laser cutter for test cuts on cardboard as well as the Shopbot for the test and final cuts on wood. The inputs of the project are limited to the user turning the device off and on. The Outputs are the display system as well as the sound system that tells the user when to study and when to take a break. The only inspiration for this project comes from the side chair file. My project differs from this inspiration as I scaled the chair to be less wide and taller. In addition, I changed the way the original creator cut the sides into pieces. 
+
 ## Side Design
 
 I began by using a classroom chair as a reference design for my chair. I decided on creating two sides of the chair first anf then connecting across via mortison tenon joints. Using a classroom chair as a reference was benificial as they are smaller and would require less materials to replicate. I decided on making the chair seat at least 15 inches off of the ground. I wanted arms on the chair in order to integrate the electronics in them. 
 
-On https://www.etsy.com I found a file for a bohemian chair and a tutorial on how to make it. However when I first imported the file via dxf on fusion360 the height was 324 inches tall. I re-inmported the deisign to millimeters in order to scale the size down. 
+On https://www.etsy.com I found a file for a bohemian chair and a tutorial on how to make it. However when I first imported the file via dxf on fusion360 the height was 324 inches tall. I re-imported the deisign to millimeters in order to scale the size down. 
 
 <img style="max-width:100%;height:auto;" alt="image" src="https://github.com/user-attachments/assets/62fd3327-1945-4916-83ea-c89ae4fbf918" />
 
