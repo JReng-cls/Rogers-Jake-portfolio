@@ -10,6 +10,12 @@ This is the steps for creating a topography map with Aspire and milling it out o
 
 ## Design Phase
 
+To first ensure that the mountain range met the design requirements I 3D printed the design using the Fab lab's Bambu Lab 3D printers.
+
+[⬇ Download ZIP](https://github.com/JReng-cls/Rogers-Jake-portfolio/raw/main/files/myfile.zip)
+
+
+
 This workflow was provided by my instructor Mr. Tom Dubick:
 
 Access the Website:
