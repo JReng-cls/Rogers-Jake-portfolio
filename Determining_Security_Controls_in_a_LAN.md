@@ -45,6 +45,8 @@ In order to visualize hacker attempts on a LAN, diagrams were created.
 
 This diagram represents a MAC flooding attack in which the hacker floods one of the switches ports with thousands of MAC addresses forcing it into a "fail open" state giving the hacker access 
 
+## 
+
 ### Reflection Paragraph
 
 This information reveals that to a ping a device the sender needs the destination device and needs to be on the same LAN using these commands. ARP assumes these devices are trustworthy because they are within the same LAN. Because ARP trust devices without verification it makes ARP vulnerable to spoofing. Bridged mode was required for this lab so that both VMs would be on the same LAN.
