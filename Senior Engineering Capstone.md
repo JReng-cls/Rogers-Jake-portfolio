@@ -10,6 +10,10 @@ For my Senior engineering capstone project I decided to build a pomodoro study c
 | Raspberry Pi Pico h Chip                       | 1x     | $5.00  | https://www.mouser.com/ProductDetail/Raspberry-Pi/SC0917?qs=T%252BzbugeAwjjvYEYcRJk%252Bxw%3D%3D&mgh=1&srsltid=AfmBOoohrSo6VDAgjWLN8hHqMCyGG  | Found In fab lab | R29VT3UCDAJBrDHc-rXecShZtpb-U
 | 4 Pin OLED Display                             | 1x     | $3.23  | https://www.ebay.com/itm/401468377369?chn=ps&mkevt=1&mkcid=28&google_free_listing_action=view_item&srsltid=AfmBOoqm31r2Kdil2vnQtadq7cFn_M4RcuxbxaOPPIXMMvq-YOSKluLk8E0&com_cvv=8fb3d522dc163aeadb66e08cd7450cbbdddc64c6cf2e8891f6d48747c6d56d2c          | Found in FabLab | 
 
+## Link To Task Analysis
+
+https://docs.google.com/document/d/1h2ybkHZOrmocpQRjxU5NcVkHAfMr9Qr2gCl5Ts1Y020/edit?usp=sharing 
+
 
 ## Design Specs
 
