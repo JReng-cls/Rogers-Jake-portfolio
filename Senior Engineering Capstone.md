@@ -14,6 +14,10 @@ For my Senior engineering capstone project I decided to build a pomodoro study c
 
 https://docs.google.com/document/d/1h2ybkHZOrmocpQRjxU5NcVkHAfMr9Qr2gCl5Ts1Y020/edit?usp=sharing 
 
+## Gantt Chart
+
+https://docs.google.com/spreadsheets/d/e/2PACX-1vTyddraeUgCk92TQGCBsSgF6_rqsoACsJ54TRJH8JF0IrLq893qUOEbyBpZXroAAPQE5Em0gLeHdUW2/pubhtml 
+
 
 ## Design Specs
 
