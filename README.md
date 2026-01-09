@@ -1,7 +1,8 @@
 # Home Page
 Honors Engineering/Networking Portfolio - [2025-2026]
 ## About Me
-![wmremove-transformed](https://github.com/user-attachments/assets/97788b9d-e0ff-4f68-86cb-0c3a9b534ebc)
+<img width="398" height="599" alt="image" src="https://github.com/user-attachments/assets/aab2f5bc-0df6-4116-b713-54d9c4405bcc" />
+
 
 I am **Jake Rogers**, a 12th grade student in the Advanced Placement
 Networking and Advanced Topics in Engineering programs at Charlotte Latin School. I am especially
