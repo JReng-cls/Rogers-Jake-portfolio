@@ -1,4 +1,4 @@
-## List of All My Projects from AP Networking Fundamentals/Advanced Topics in Engineering
+
 
 [Senior Capstone Project](https://jreng-cls.github.io/Rogers-Jake-portfolio/Senior%20Engineering%20Capstone)
 
