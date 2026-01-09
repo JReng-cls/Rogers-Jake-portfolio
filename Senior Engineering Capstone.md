@@ -123,6 +123,92 @@ After creating this test circuit I used the same circuit and adjusted my code to
   <figcaption>[Working Raspberry Pi Pico h circuit with OLED display and buzzer speaking switching between study and break time]</figcaption>
 </figure>
 
+Code Used for OLED Speaker 
+
+    from machine import Pin, I2C
+    from ssd1306 import SSD1306_I2C
+    from oled import Write
+    from oled.fonts import ubuntu_mono_15, ubuntu_mono_20
+    import utime
+
+    # OLED dimensions
+    WIDTH = 128
+    HEIGHT = 64
+
+    # Initialize I2C and OLED
+    i2c = I2C(0, scl=Pin(17), sda=Pin(16), freq=200000)
+    oled = SSD1306_I2C(WIDTH, HEIGHT, i2c)
+
+    # Font writers
+    write15 = Write(oled, ubuntu_mono_15)
+    write20 = Write(oled, ubuntu_mono_20)
+
+    # Buzzer setup
+    buzzer = Pin(15, Pin.OUT)
+
+    # Timer settings (shortened for testing)
+    STUDY_DURATION = 25  # seconds
+    BREAK_DURATION = 15  # seconds
+
+    # Initial state
+    mode = "study"
+    start_time = utime.ticks_ms()
+
+    while True:
+    # Calculate elapsed time
+    elapsed_ms = utime.ticks_diff(utime.ticks_ms(), start_time)
+    seconds = elapsed_ms // 1000
+    minutes = seconds // 60
+    hours = minutes // 60
+
+    # Format time
+    time_str = "{:02}:{:02}:{:02}".format(hours, minutes % 60, seconds % 60)
+
+    # Clear screen
+    oled.fill(0)
+
+    # Display mode and time
+    if mode == "study":
+        write15.text("Studying for", 0, 10)
+    elif mode == "break":
+        write15.text("Break Time:", 0, 10)
+
+    write20.text(time_str, 0, 30)
+    oled.show()
+
+    # Check for phase transition
+    if mode == "study" and seconds >= STUDY_DURATION:
+        # Beep and switch to break
+        buzzer.value(1)
+        utime.sleep(0.2)
+        buzzer.value(0)
+
+        oled.fill(0)
+        write20.text("Time for a Break", 0, 20)
+        oled.show()
+        utime.sleep(2)
+
+        mode = "break"
+        start_time = utime.ticks_ms()
+
+    elif mode == "break" and seconds >= BREAK_DURATION:
+        # Beep and switch to study
+        buzzer.value(1)
+        utime.sleep(0.2)
+        buzzer.value(0)
+
+        oled.fill(0)
+        write20.text("Study Time!", 0, 20)
+        oled.show()
+        utime.sleep(2)
+
+        mode = "study"
+        start_time = utime.ticks_ms()
+
+    # Wait 1 second
+    utime.sleep(1)
+
+
 ## Daily Journal
 
 - Day 1: On day one I spent my time searching for ergonomic chair designs to influence my own. I decided on creating a relatively smaller chair to support my budget. I decided on making the chair out of two different kinds of wood. One type that is harder or sturdier for the side/legs of the chair for support, and another type for the backrest and seat of the chair
