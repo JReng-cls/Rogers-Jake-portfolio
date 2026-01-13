@@ -232,5 +232,6 @@ Code Used for OLED Speaker
 - Day 19: Cut pieces out on cardboard to test size. Desired dimensions were still not met
 - Day 20: adjusted the height of the chair in fusion360 and broke it back down into pieces for cutting
 - Day 21: test cut out the chair on cardboard
-- Day 22: Wood was odered and I began constructing my circuit on Kicad. I initially struggled to find the correct raspberry pi pico chip but realized that I'm using the pico h which is for headers and is not needed on any PCB board so I used the default pico. After that I couldn't find my OLED display. Kicad does not support a .96 inch OLED display screen so I used global labels and created 4 through holes connected to GND, VCC, SLC and SDA.
+- 1/12/26: Wood was odered and I began constructing my circuit on Kicad. I initially struggled to find the correct raspberry pi pico chip but realized that I'm using the pico h which is for headers and is not needed on any PCB board so I used the default pico. After that I couldn't find my OLED display. Kicad does not support a .96 inch OLED display screen so I used global labels and created 4 through holes connected to GND, VCC, SLC and SDA.
+- 1/13/26: Continued working on PCB board. Finished tracing connections 
 
