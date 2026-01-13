@@ -45,7 +45,31 @@ In order to visualize hacker attempts on a LAN, diagrams were created.
 
 This diagram represents a MAC flooding attack in which the hacker floods one of the switches ports with thousands of MAC addresses forcing it into a "fail open" state giving the hacker access 
 
-## 
+## Enterprise Physical Security Threat Analysis
+
+In this activity, security measures were designed for a pharmaceutical research facility in order to better understand how to secure a network with high-profile information
+
+Vulnerabilities Identified:
+
+1. Lack of network segmentation - This enterprise has thousands of employees all doing different jobs even in different buildings. Segmenting this network using VLAN segmentation would not only reduce traffic but also help restrict access for certain employees with lower-level clearance
+
+2. Physical Vulnerabilities - An enterpise of this status can be a target and needs to be physically secure so that a person wouldn't be able to walk on-site without many security checkpoints and clearance.
+
+3. Insider Threats - Employees should be constantly monitered in order to prevent misuses of authorized access as well as improper actions such as more than one person through a door at one time
+
+4. Packet Sniffing - This enterpise contains data worth a lot of money that could be targeted by hackers. This network needs to be encrypted and monitered at all times in order to prevent data leaks that could potentially cost the company thousands of dollars.
+
+5. Network Device Access - All important devices that grant users access to the network should be behind locked doors containing company ID locks and cameras monitered 24/7. If access to these devices fell into the wrong hands then a hacker would be able to shut the entire network down and damage data along with it.
+
+6. ARP Spoofing - This network needs to be encrypted behind a firewall or configured to only allow certain devices to communicate so that a hacker would not be able to overload a switch into a "fail open" mode.  
+
+### Site Construction
+
+<img width="832" height="477" alt="image" src="https://github.com/user-attachments/assets/212eb94e-21b9-46b1-9b3d-d011a9fbc9f8" />
+
+The image above shows a diagram for the outside of the enterprise. The three buildings are sourrounded by an anti-climb fence with cameras every 50 yards to prevent blind spots. The entrance to the campus is blocked by a security booth where someone trying to enter would have to provide credentials and their reason for visiting. The cameras on the fence are monitired 24/7 by guards withing the data center. The anti-climb fence is patrolled by armed guards on the inside and outside at all times. All of these security measures ensure that no one can get on-site without the proper authorization.
+
+### Data Center Construction
 
 ### Reflection Paragraph
 
