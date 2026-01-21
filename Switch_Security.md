@@ -6,6 +6,27 @@ In a LAN, the easiest devices to attack are endpoint devices as these devices se
 
 <img width="818" height="633" alt="image" src="https://github.com/user-attachments/assets/748e5cbd-ccf4-4548-8aca-dc713eea9021" />
 
+### Ubuntu Evidence Collection
+
+To better understand how computers discover IP addresses and default gateways on their networks, tests were ran on ubuntu.
+
+First to establish the computers default gateway the 'ip route show' command was ran
+
+![31E2FFB2-B8CB-4E32-AE5E-EE415CBFFDEC_4_5005_c](https://github.com/user-attachments/assets/dbe4b601-8c60-4d33-85b6-96c98b51516b)
+
+**Default Gateway Circled in Black**
+
+Next the 'traceroute 8.8.8.8' command was ran. Tracing the route from a wireless endpoint device will reveal the default gateway on the first hop. The IP address 8.8.8.8 is for Google which is not within the computers network so the computer must go through the default gateway to access the google servers.
+
+![DE96D8C3-F075-44E5-87AF-90070994314B_1_201_a](https://github.com/user-attachments/assets/13dca1d5-303b-45c9-931f-a18e5be5fa63)
+
+**Default gateway circled (first hop on traceroute)**
+
+An attacker could misuse this information if the router has no security measures in place. If the hacker knows the IP address of the default gateway then they could simply type that IP into a web browser and change network configurations. 
+
+#### Reflection
+
+The threat that felt most realistic would be a phishing attack as many users are not well versed in network attacks and could easily click on a link unaware to the consequences. 
 
 
 ### Mini-Threat Simulation
@@ -41,3 +62,7 @@ Admin > Servers: Allowed - Admin need to be able to change or configure the scho
 The VLANs that should be considered the least trusted is the student VLAN. Students do not need to send anything back to the devices they only need to receieve updates and instructions. The VLAN that requires the most protection would be the server devices as they present direct access to every part of the network. The switch should be most stict on open ports so that attackers aren't able to use them without having to go through security measures. 
 
 VLANs alone do not fully secure my design because if the attacker is able to gain access to the server VLAN then they would have access to the whole network as there are no restrictions on server communication. DHCP snooping is necessary in addition to VLANS as unused ports can still be access so network activity must be monitored. DAI is also needed to mitigate attacks as the network still allows communication on certain VLANs so an attacker could send rapid ARP messages on these VLANs. ACLs are imperative to mitigate the risk of attackers using unused ports on the switch. 
+
+VLAN segmentation and DHCP snooping must be used together to mitigate internal risks due to the fact that DHCP snooping can see when denied VLANs are being accessed and alert the network admin. DAI depends on DHCP snooping in order to validate packets and addresses with the DHCP database. ACLs are still required even after VLAN segmentation due to fact that VLAN segmentation does not fully prevent unauthorized access. 
+
+The hardest threat for a network admin to detect would be an email phishing attack that infects the network with malware. If the email is sent to a low level employee who in unaware of phishing attacks they might click on a link and never report it. Malware is specifically designed to go undectected in a network to collect as much information as possible, so once inside it would take a while to notice if noticed at all.
