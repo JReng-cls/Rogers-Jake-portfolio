@@ -28,7 +28,25 @@ An attacker could misuse this information if the router has no security measures
 
 The threat that felt most realistic would be a phishing attack as many users are not well versed in network attacks and could easily click on a link unaware to the consequences. 
 
+### Switch Security Controls — From Observations to Decisions
 
+Threat - Something or someone that could potentially attack the network
+
+Vulnerability - A weak point in the network that hackers can use
+
+Control - A security measure put in place to mitigate threats
+
+Prevent vs. Mitigate - Prevent means to stop from happening all together while to mitigate is to lower the chance of something happening
+
+#### Packet Tracer 
+
+<img width="597" height="436" alt="image" src="https://github.com/user-attachments/assets/898375ab-2c55-4276-a7eb-d62eaa61b05a" />
+
+By default this network allows any device to communicate with any other device on the network as the switch has no controls currently in place. This design assumes trust between devices because they were plugged in physically to the switch. This creates a security risk because a low level employee can view high profile information with this current configuration. 
+
+<img width="1051" height="1063" alt="image" src="https://github.com/user-attachments/assets/2aaf1ead-adcf-4694-8967-b34687f44f27" />
+
+The first control added to this network was VLAN segmentation. As shown in the image above, VLANs 10 and 20 were created for student and servers. VLANs change what devices can see by filtering traffic to stay within the VLAN. VLANs alone do not enforce full security as hackers can still enter high level VLANs with hacking methods such as ARP spamming or a phishing attack. 
 ### Mini-Threat Simulation
 
 Scenario B— 
