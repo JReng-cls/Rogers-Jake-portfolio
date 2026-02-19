@@ -52,6 +52,11 @@ These links assemble to create a side frame 33 inches tall so that I can place t
 
 When I cut this out using the shopbot cnc machine I will need two of these sides to create a full chair 
 
+<img width="1201" height="846" alt="image" src="https://github.com/user-attachments/assets/ffeb0ffc-c4e0-43fe-97b8-14050e3ea94c" />
+
+After breaking down the pieces of the side into links on Fusion360 I exported the file as a DXF and brought the links into Aspire to create the tool paths.
+
+
 ## Rasberry Pi Timer
 
 For the electronics of my project I will be creating a circuit with a screen that displays a timer that keeps track of the pomodoro segments for the user. 
@@ -233,5 +238,6 @@ Code Used for OLED Speaker
 - Day 20: adjusted the height of the chair in fusion360 and broke it back down into pieces for cutting
 - Day 21: test cut out the chair on cardboard
 - 1/12/26: Wood was odered and I began constructing my circuit on Kicad. I initially struggled to find the correct raspberry pi pico chip but realized that I'm using the pico h which is for headers and is not needed on any PCB board so I used the default pico. After that I couldn't find my OLED display. Kicad does not support a .96 inch OLED display screen so I used global labels and created 4 through holes connected to GND, VCC, SLC and SDA.
-- 1/13/26: Continued working on PCB board. Finished tracing connections 
+- 1/13/26: Continued working on PCB board. Finished tracing connections
+- Used CNC machine to cut out pieces on 
 
