@@ -56,14 +56,16 @@ When I cut this out using the shopbot cnc machine I will need two of these sides
 
 After breaking down the pieces of the side into links on Fusion360 I exported the file as a DXF and brought the links into Aspire to create the tool paths.
 
-I cut out that file four times as I am creating two sides created out of two layers. 
+The file shown in the image above was cut out four times to create two separate sides. Each piece of the side is layered on top of an identical piece to add to the thickness and overall support of the chair. Using 3/4 inch thick plywood I cut out the pieces and layered them to create 1.5 inch thick pieces.
+
+After leaving the pieces glued overnight I noticed that the edges were not flush. To fix this issue I used a routing bit to trim off the overlapping edges
 
 <figure>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/1XIqhiOk3tc" title="Routing edges" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <figcaption>[Routing Edges]</figcaption>
 </figure>
 
-
+After ensuring the edges of the pieces were flush I could now move to work on connecting the pieces via domino inserts using the Festool DF 500 tool. 
 
 ## Rasberry Pi Timer
 
@@ -245,7 +247,19 @@ Code Used for OLED Speaker
 - Day 19: Cut pieces out on cardboard to test size. Desired dimensions were still not met
 - Day 20: adjusted the height of the chair in fusion360 and broke it back down into pieces for cutting
 - Day 21: test cut out the chair on cardboard
-- 1/12/26: Wood was odered and I began constructing my circuit on Kicad. I initially struggled to find the correct raspberry pi pico chip but realized that I'm using the pico h which is for headers and is not needed on any PCB board so I used the default pico. After that I couldn't find my OLED display. Kicad does not support a .96 inch OLED display screen so I used global labels and created 4 through holes connected to GND, VCC, SLC and SDA.
-- 1/13/26: Continued working on PCB board. Finished tracing connections
-- Used CNC machine to cut out pieces on 
+- Day 22: Wood was odered and I began constructing my circuit on Kicad. I initially struggled to find the correct raspberry pi pico chip but realized that I'm using the pico h which is for headers and is not needed on any PCB board so I used the default pico. After that I couldn't find my OLED display. Kicad does not support a .96 inch OLED display screen so I used global labels and created 4 through holes connected to GND, VCC, SLC and SDA.
+- Day 23: Continued working on PCB board. Finished tracing connections
+- Day 24: Used CNC machine to cut out pieces on 3/4 inch thick plywood
+- Day 25: Layered pieces to create 1.5 inch thick side links
+- Day 26-28: Measured and marked up side links for domino inserts
+- Day 28-30: Created domino insert holes on each piece
+- Day 31: Connected side links using 6x40 mm domino inserts and Titebond III wood glue
+- Day 32: Began seat fram construction using my model on fusion360
+- Day 33: Marked up 2x4x96 inch wood for the lengths and width of the seat making 15 inches across and 30 inches in length
+- Day 34: Sanded frame pieces so that they are level for the domino inserts
+- Day 35: after realizing the wood I had been working on for the frame was not flush to the front and back of my chair I moved to working on 2x2" wood instead
+- Day 36: Ripped the 15" pieces in half as I need 2x2's and not 2x4's
+- Day 37: Recreated the lengths of the seat frame to be longer than the chair itself to ensure that the frame would be flush front to back
+- Day 38: Cut the lengths in half to make 2x2" pieces
+- 
 
