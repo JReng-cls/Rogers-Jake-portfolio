@@ -59,8 +59,8 @@ After breaking down the pieces of the side into links on Fusion360 I exported th
 I cut out that file four times as I am creating two sides created out of two layers. 
 
 <figure>
-  <iframe width="560" height="315" src="[https://www.youtube.com/embed/VmAZWTmpMYU](https://youtu.be/1XIqhiOk3tc)" title="Working Raspberry Pi Pico h circuit with OLED display and buzzer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <figcaption>[Working Raspberry Pi Pico h circuit with OLED display and buzzer speaking switching between study and break time]</figcaption>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/1XIqhiOk3tc" title="Routing edges" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <figcaption>[Routing Edges]</figcaption>
 </figure>
 
 
