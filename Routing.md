@@ -52,10 +52,26 @@ Using the "curl" command shown above the user can find the devices public ip add
 |---------------|------------|
 | 172.95.44.210 | 127.0.0.1  |
 The public ip is like the devices "Global Address" which is seen by everything outside the network. The private ip is the address within the network that only devices on the network can see. This is done to meet the limited supply of ipv4 addresses. The DNS server is responsible for this translation. The device is located at the end of the network within the /8 subnet. 
-• Where is that device located in the network?
+
+
 #### Technical Development
 
 #### Testing & Evaluation
 
+<img width="622" height="166" alt="image" src="https://github.com/user-attachments/assets/607e0ae5-714a-44f7-a34f-ff3bd534e606" />
+
+Shown above is the succesful ping of my partners private IP address
+
+<img width="622" height="166" alt="image" src="https://github.com/user-attachments/assets/0bdd7eff-4da0-4523-9a40-a8cf68d63032" />
+
+Shown above is the failed ping sent to my partners public IP address
+
+Both my partners device and this device share the same public IP address. Multiple devices might share this public IP due to the fact that they are all on bridged mode which may have a default public IP. This may explain why the pinging fails because multiple devices have the IP address that the ping is being sent to.
+
 #### Reflection & Analysis
 
+Private Ipv4 addresses are used across multiple networks due to the limited number of them and rising number of devices globally. Private addresses are not routed on the public internet as devices not on the same network as the device shouldn't have access to the devices private IP. The world would run out of IP addresses if every device required a public IP address. 
+
+Connection to 1_2_3PairProject:
+
+Internal VLAN IP addresses become public when traffic leaves the network. Segmentation could eliminate the need for public IPs if the traffic never leaves the VLAN. 
