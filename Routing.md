@@ -68,6 +68,34 @@ Shown above is the failed ping sent to my partners public IP address
 
 Both my partners device and this device share the same public IP address. Multiple devices might share this public IP due to the fact that they are all on bridged mode which may have a default public IP. This may explain why the pinging fails because multiple devices have the IP address that the ping is being sent to.
 
+### **3rd proj**
+
+![538DFCEB-615E-4180-B42A-4417A885804C_4_5005_c](https://github.com/user-attachments/assets/b78c9612-a635-4a87-aaa2-02e78c98c272)
+
+Devices are connected by copper straight-through cables to respective Gigabitethernet and FastEthernet ports
+
+<img width="700" height="709" alt="FC91606A-0B9E-4235-A642-AC12BD4000A4" src="https://github.com/user-attachments/assets/cb1595aa-0784-4dc8-94ba-069a70cc1708" />
+
+Configurations for PC0
+
+<img width="700" height="709" alt="0BD6F9A0-1DC8-4A82-AE2E-F8D874FBA2B9" src="https://github.com/user-attachments/assets/3c5d18ef-af7a-4686-ada6-b405e732ae01" />
+
+Configurations for PC1
+
+<img width="700" height="708" alt="90D01893-289F-4EC0-B6E3-D9AA28B1BB4F" src="https://github.com/user-attachments/assets/cd87c2c4-8c4d-4af6-b94b-3e5fec53d9b9" />
+
+Configurations for Router
+
+<img width="956" height="709" alt="BEEFDBB6-7A9E-4D95-8793-46BB00DA42AB" src="https://github.com/user-attachments/assets/baabd066-98d1-4cb5-8c33-9900377ba024" />
+
+Now entering simulation mode the user can view packets transferred accross the network
+
+<img width="956" height="709" alt="3F913298-0A09-4AAE-AE0A-13F9F595D138" src="https://github.com/user-attachments/assets/6b367860-2e8f-4600-a94c-bb3738dc3f31" />
+
+As shown above the packets were sent to the switch then the router then back through in reverse order. Before the first ICMP is sent the device reads the information to know where to send it. The ARP appears under the simulation panel on the right. The MAC address being used is the PC0 mac address and the routers mac address. 
+
+The switch never modifies the IP address so that the destination address stays consistent. The router must modify the MAC address as it changes with every hop. THe source IP remains the same because the source is the same even though the packets are on a different interface. "Next hop" in this simulation means the next device the data will transfer to before arriving at the destination device. The default gateway is necessary because it filters traffic leaving the network. 
+
 #### Reflection & Analysis
 
 Private Ipv4 addresses are used across multiple networks due to the limited number of them and rising number of devices globally. Private addresses are not routed on the public internet as devices not on the same network as the device shouldn't have access to the devices private IP. The world would run out of IP addresses if every device required a public IP address. 
