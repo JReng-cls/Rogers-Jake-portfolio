@@ -68,7 +68,6 @@ Shown above is the failed ping sent to my partners public IP address
 
 Both my partners device and this device share the same public IP address. Multiple devices might share this public IP due to the fact that they are all on bridged mode which may have a default public IP. This may explain why the pinging fails because multiple devices have the IP address that the ping is being sent to.
 
-### **3rd proj**
 
 ![538DFCEB-615E-4180-B42A-4417A885804C_4_5005_c](https://github.com/user-attachments/assets/b78c9612-a635-4a87-aaa2-02e78c98c272)
 
@@ -96,6 +95,37 @@ As shown above the packets were sent to the switch then the router then back thr
 
 The switch never modifies the IP address so that the destination address stays consistent. The router must modify the MAC address as it changes with every hop. THe source IP remains the same because the source is the same even though the packets are on a different interface. "Next hop" in this simulation means the next device the data will transfer to before arriving at the destination device. The default gateway is necessary because it filters traffic leaving the network. 
 
+To view the default route and default gateway on a network the user can run 'ip route'
+
+![42042A0B-AE43-4C7C-8C3D-C4B61CCAC7DB_4_5005_c](https://github.com/user-attachments/assets/27cfe6b8-2b78-4702-90bb-010767a2714f)
+
+**Notice the "default via 10.12.16.1". This is the default gateway, this is also the last hop in the sequence**
+
+Now lets test running traceroute to The other VM, 8.8.8.8, and google.com
+
+When attempting to traceroute the other VM the response was lines of "***" this is because the traceroute was to the other VM's private IP address so the hops were hidden. When the public IP was tested the hops were revealed
+
+<img width="2790" height="702" alt="D86E7403-2057-4BB4-A714-A86FD6467A4B" src="https://github.com/user-attachments/assets/3c124353-507f-4f8e-83b7-cbf56e79b326" />
+
+<img width="2814" height="516" alt="image" src="https://github.com/user-attachments/assets/1ae2e0db-34b9-42e7-9f6e-2bcc349b1472" />
+
+![8771D655-8498-4892-B9CD-6A334DD36EA5_4_5005_c](https://github.com/user-attachments/assets/ddaaa9d9-6dae-4507-806e-7b6f3ffe0399)
+
+**traceroute to google and 8.8.4.4**
+
+Now lets use a more precise tool
+
+![BD8B40E8-D2D3-41BB-BA19-601F1AA39802_4_5005_c](https://github.com/user-attachments/assets/081f204c-a71b-4ec7-90b6-bed2adc654bd)
+
+This shows the immediate route
+
+Now lets test the public IP of the other VM
+
+![0DF6DD7F-A0FE-4D0F-B8AC-5A3DFA973F6C_4_5005_c](https://github.com/user-attachments/assets/19e6c3c8-2718-4f0a-8952-5b0525a040ce)
+
+ip route get only shows one hop as it is the immediate route while traceroute will reveal each device in the path to the other IP via each devices ip address
+
+
 #### Reflection & Analysis
 
 Private Ipv4 addresses are used across multiple networks due to the limited number of them and rising number of devices globally. Private addresses are not routed on the public internet as devices not on the same network as the device shouldn't have access to the devices private IP. The world would run out of IP addresses if every device required a public IP address. 
@@ -103,3 +133,15 @@ Private Ipv4 addresses are used across multiple networks due to the limited numb
 Connection to 1_2_3PairProject:
 
 Internal VLAN IP addresses become public when traffic leaves the network. Segmentation could eliminate the need for public IPs if the traffic never leaves the VLAN. 
+
+
+The path of data from a device can be determined by the traceroute command. The first hop is the device sending the traceroute. Private IPs appear ealier in the path because they are within the same network as the sender device. Two different destinations can share the same first several hops if there is only one path through the LAN to the router. 
+2. What does the first hop represent?
+3. Why do private IPs appear early in the path?
+4. Why can two different destinations share the same first several hops?
+5. What is the difference between:
+• A routing-table decision
+• A traceroute path
+Your explanation must reference:
+• At least one routing-table output
+• At least one traceroute observation
