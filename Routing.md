@@ -1,5 +1,7 @@
 ### Routing Project Overview
 
+This project will go over how packets move between devices inside and outside of the LAN. 
+
 #### Design & Planning
 
 <img width="2928" height="1614" alt="3E5B6BFF-E91F-4D94-92D7-60FAE6542D8C" src="https://github.com/user-attachments/assets/d9dcfd1e-4cd1-4d3a-bb57-51a4a6c85062" />
@@ -34,7 +36,6 @@ This ping was sent through the default gateway and this can be proven by reading
 This ping left the network as it is being sent to google (8.8.8.8)
 
 
-### **2nd proj**
 
 <img width="1440" height="604" alt="87A1E9CE-A5AE-44BB-81F0-6A1C3EFE7D16" src="https://github.com/user-attachments/assets/51904875-05af-4d83-abe6-9996039e130f" />
 
