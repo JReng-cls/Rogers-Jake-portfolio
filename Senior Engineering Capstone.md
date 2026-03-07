@@ -65,7 +65,20 @@ After leaving the pieces glued overnight I noticed that the edges were not flush
   <figcaption>[Routing Edges]</figcaption>
 </figure>
 
-After ensuring the edges of the pieces were flush I could now move to work on connecting the pieces via domino inserts using the Festool DF 500 tool. 
+After ensuring the edges of the pieces were flush I could now move to work on connecting the pieces via domino inserts using the Festool DF 500 tool. I adjusted the height on the festool df 500 to 36mm and used the smallest  setting for 6x40mm domino inserts. 
+
+After connecting the links the sides of my chair were done.
+
+## Seat Frame Design
+
+The file I used for the side design only gave the side so i had to create my own seat and back rest. I decided on using 2x2s to create a rectangular frame and connecting across for added support.
+
+![IMG_4088](https://github.com/user-attachments/assets/4a01a532-f869-4340-a40f-96196f9d584b)
+
+I first used the table saw to cut out two 33" long pieces and 3 15" pieces to create the seat frame. Using 2.5" wood screws I connected the 33" pieces along the sides of the chair then the 15" pieces joined the two sides as shown in the picture above.
+
+Next to create the backrest frame I cut out two 20" pieces for the height and another 15" piece to connect across. I inserted the 20" pieces to the seat frame using 6x40mm domino inserts as the dominos only have to hold the pieces in place not support any weight. Finnaly I used 2.5" wood screws to connect the top of the backrest. 
+
 
 ## Rasberry Pi Timer
 
@@ -260,6 +273,13 @@ Code Used for OLED Speaker
 - Day 35: after realizing the wood I had been working on for the frame was not flush to the front and back of my chair I moved to working on 2x2" wood instead
 - Day 36: Ripped the 15" pieces in half as I need 2x2's and not 2x4's
 - Day 37: Recreated the lengths of the seat frame to be longer than the chair itself to ensure that the frame would be flush front to back
-- Day 38: Cut the lengths in half to make 2x2" pieces
-- 
+- Day 38: Cut the lengths in half to make 2x2" pieces and assembled the seat frame using 2.5" wood screws
+- Day 40: Used the Festool df 500 to connect to 20" pieces cut out on the table saw to the seat frame for the backrest then used a 15" piece and 2.5" wood screws to connect the backrest at the top
+- Day 41: Began recreating the breadboard circuit on kicad
+- Day 42: Continued work on kicad
+- Day 43: After realizing that the PCB board wouldn't be finished by the March 5th due date I began work on a Proto board
+- Day 44: Soldered on Proto Board
+- Day 45: Soldered on proto board
+- Day 46: Soldered on proto board
+- Day 47: Tried fixing issues on Proto board but was unable so I cased what I had in the 3d printed box and used 1.5" wood screws to connect it to the arm of the chair
 
