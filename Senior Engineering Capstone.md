@@ -283,3 +283,18 @@ Code Used for OLED Speaker
 - Day 46: Soldered on proto board
 - Day 47: Tried fixing issues on Proto board but was unable so I cased what I had in the 3d printed box and used 1.5" wood screws to connect it to the arm of the chair
 
+## Challenges
+
+1. layering Plywood: When layering the links of the side of the chair the glue kept sliding the pieces around after they were clamped down. This was a problem because I needed the side links to be flush against one another because domino inserts require flate surfaces. To fix this, I took a routing bit to the edge of the pieces to make them all flat and flush.
+2. Seat Frame: When connecting the 15" cross sections to the 33" lengths of the seat frame I ran into some issues. The wood kept cracking as I drilled into it and I had to re cut quite a few times. To fix this, I drilled bigger pilot holes for the screws to sit in so they could pass by the knots in the wood easily
+3. Electronics: After getting my electronics to work on a breadboard I moved to work on a PCB board. After realizing a PCB board wouldn't be done by March 5th I began work on a proto board. Initially after completing soldering the screen of the OLED would display half the letters and the time would be frozen. I thought at first this must be due to a grounding issue. I noticed the metal pad on the ground pin of the OLED was burned off during soldering so I got a different OLED. After re-soldering a new OLED I turned the circuit on and the screen didn't turn on.
+
+## Reflection
+
+This project has taught me a lot in terms of wood working, electronics specifically Raspberry Pi Picos, and time managment. 
+
+The wood working portions of this project have allowed me to become familiar with a lot of the tools around the fab lab. I was able to use the tablesaw to make my seat frame and the jigsaw to trim off extra wood. I used compact drills to connect the frame. The side of the chair required the festool DF 500. All of this has taught me the creativity that goes along with woodworking.
+
+The electronics portion of this project has taught me that its best to be careful during transition phases. Its important to buy multiple of each of your components so that easy replication is available when moving from breadboard to pcb or to proto boards as I ran into issues that I was unable to solve without a reference circuit.
+
+Finnaly, this project has taught me the most about time management. At the beggining of the year I moved at a steady pace which was not quick enough. Around february is when I realized the due date was coming quicker than I could finish. There are always unforseen issues within the hardware and software of your project that make the last 10% of the work take 50% of the time. Its important to use a ghantt chart or another method of planning to finish in a timely manner.
