@@ -70,6 +70,42 @@ Now compare to UDP by running the listening command 'nc -u -l 6000' and send the
 
 <img width="2712" height="514" alt="55174442-1AE5-429B-A876-B898C253801A" src="https://github.com/user-attachments/assets/d81a37f2-dd0a-4d6b-a306-de4c540757a2" />
 
+Now lets examine the curl command using 'curl -I http://google.com'
+
+<img width="2814" height="572" alt="6D75DBAF-9B50-44EB-8AD5-AA3B22D67554" src="https://github.com/user-attachments/assets/e16c970d-db37-48b1-bdd5-bf4cdbf8d103" />
+
+The protocol being used with curl are multiple but the most common are http and https. Underneath curl is the transport protocol TCP (Transmission Control Protocol)
+
+
+Now lets compare with a https address
+
+<img width="2814" height="676" alt="BE59B62B-365A-4E29-BC4C-059FE391A6FD" src="https://github.com/user-attachments/assets/184e3d72-1a9e-4eba-a56a-bc0695965264" />
+
+Notice all the headers are now lowercase. The additional protocol involved now is HTTPS because HTTP does not provide self encryption. 
+
+Now lets observe encryption behavior on google.com
+
+<img width="2814" height="1612" alt="685241F9-74C5-43A2-A760-8F7E3AE2C270" src="https://github.com/user-attachments/assets/7796e8df-13a6-462f-b3b3-bed36a417ee7" />
+
+<img width="2814" height="1612" alt="F41B5ED4-0BAD-46F8-BD9B-3EC2C090178E" src="https://github.com/user-attachments/assets/073efe3d-1179-491c-a7ff-16d7acfd860c" />
+
+The data being exchanged before the transfer is a connection via ip addresses. This is the transport layer as it is sending data between devices via ip addresses.
+
+
+investigate whether “sessions” are visible in a real system.
+
+<img width="2814" height="738" alt="35EAC431-9FE3-4CD8-9443-1379B9848108" src="https://github.com/user-attachments/assets/606a5771-800d-4b63-bbc3-72b21c74837c" />
+
+The connection cannot be seen as the 'ss -tn' command was not ran quick enough to catch the data transfer.
+
+Protocol/Purpose/layer
+HTTP
+HTTPS
+TLS
+DNS
+TCP
+
+
 
 ### Reflection and Analysis
 
