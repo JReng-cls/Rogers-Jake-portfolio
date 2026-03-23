@@ -106,6 +106,18 @@ DNS
 TCP
 
 
+<img width="2798" height="1278" alt="8CCF6162-6B26-4008-8A42-3BB299B7D899" src="https://github.com/user-attachments/assets/55baf5b5-af91-46a0-a3db-334d8442e51e" />
+
+The status code returned was Http/2 301. Layer 2 is responsible for translating this message. The core difference between HTTP 301 and 302 status codes is permanence and their impact on search engine optimization
+
+<img width="2798" height="916" alt="F4F013B4-5DB7-4B29-A195-E7E518D6BD36" src="https://github.com/user-attachments/assets/b8c73716-2d4e-4dca-9ab2-c882d7644fa6" />
+
+This is an HTTP 301 code using layer 3. 
+
+
 
 ### Reflection and Analysis
 
+1. Why does the server not simply send the new page automatically?
+2. Why does the server instruct the client to make a new request?
+3. What advantages does this provide for the design of the web?
