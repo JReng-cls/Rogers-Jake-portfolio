@@ -1,4 +1,4 @@
-### Project Overview
+
 
 ### Design and Planning
 
@@ -118,6 +118,4 @@ This is an HTTP 301 code using layer 3.
 
 ### Reflection and Analysis
 
-1. Why does the server not simply send the new page automatically?
-2. Why does the server instruct the client to make a new request?
-3. What advantages does this provide for the design of the web?
+Servers do not send a new page automatically because the user has to initiate that interaction. The server instructs the client to make a new request as the client has to initiate the request and the server wants the client to have the most up to date information available. This improves web design through more efficiency, faster data transfer, and the ability for clients to load the materials they need.
