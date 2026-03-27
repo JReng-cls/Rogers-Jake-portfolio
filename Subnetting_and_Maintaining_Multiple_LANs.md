@@ -15,19 +15,15 @@ Another IP address on this same network would have a 210.58.54.32 IP address
 
 ### Design and Planning
 
+<img width="730" height="569" alt="image" src="https://github.com/user-attachments/assets/6407550d-b5b8-4bf9-8ff4-44934b31389e" />
 
+Devices are arranged by departments and each department has a switch. Devices are all physically wired to ensure fast reliable data transference.
 
+<img width="1425" height="615" alt="image" src="https://github.com/user-attachments/assets/540ca942-f488-4d0b-8cfd-8125b97efb3a" />
 
+**The string of commands on the left must be performed on the router as routers do not automatically boot up each interface when an active device is plugged in. Instead, the user must enable each interface connected to the router.**
 
-
-
-
-
-
-
-
-
-
+The device that connects the others to the internet is the router. The device that connects other devices via wired connections is the switch. Wireless connections are made by the WAP or the wireless access point. The device that shares stored files is the server. 
 
 
 ### Technical Development
@@ -67,4 +63,6 @@ Now its a successful ping
 
 ### Reflection and Analysis
 
-A device determines whether or not another device is on the same network by determining that all portions of the IP address that are covered by 255's are the same. IP addresses that have a single diget different can be on different networks. Devices can have only one shared diget but this can signify that they are on the same network. A router is required when pinging devices on different networks because a ping through networks has to pass through a default gatewa. 
+A device determines whether or not another device is on the same network by determining that all portions of the IP address that are covered by 255's are the same. IP addresses that have a single diget different can be on different networks. Devices can have only one shared diget but this can signify that they are on the same network. A router is required when pinging devices on different networks because a ping through networks has to pass through a default gateway. 
+
+
