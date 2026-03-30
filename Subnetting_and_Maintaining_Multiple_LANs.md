@@ -28,9 +28,25 @@ The device that connects the others to the internet is the router. The device th
 
 ### Technical Development
 
+<img width="647" height="451" alt="image" src="https://github.com/user-attachments/assets/3c0452c4-f200-4de3-bb47-37bcc882243d" />
 
+Now lets test two separate LANS and ping across it
 
+<img width="647" height="341" alt="image" src="https://github.com/user-attachments/assets/e71733e5-bb4d-40fd-b0f0-fb30bc3b488a" />
 
+First the user must set up the router and the interfaces that the switches are on. IP addresses must be assigned and the ports state must be changed to up.
+
+<img width="650" height="204" alt="image" src="https://github.com/user-attachments/assets/fb208b70-f53e-4eb9-b5c3-588486bcbfa1" />
+
+IP configurations need to be applied to PC0 in order to establish a defualt gateway.
+
+<img width="650" height="204" alt="image" src="https://github.com/user-attachments/assets/a9d94e63-01aa-40d6-ac5e-d8569e774235" />
+
+IP configurations need to be applied to PC1 in order to establish a defualt gateway.
+
+<img width="287" height="158" alt="image" src="https://github.com/user-attachments/assets/5c5827e2-b912-4ea5-8264-f21ff783d4c3" />
+
+Now that all ports are active and the IP addresses are assigned the user can succesfully ping across the router. 
 
 
 
