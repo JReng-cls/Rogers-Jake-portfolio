@@ -73,7 +73,17 @@ Now lets edit the subnet mask so that the third diget can be different
 Now its a successful ping
 
 
+<img width="650" height="204" alt="image" src="https://github.com/user-attachments/assets/c9e02112-3a5b-4610-9254-508299e02914" />
 
+**Notice the failed ping**
+
+<img width="464" height="130" alt="image" src="https://github.com/user-attachments/assets/67e7dd29-764d-49b8-904b-0b7a9f57924b" />
+
+Changed interface state to up
+
+<img width="289" height="193" alt="image" src="https://github.com/user-attachments/assets/66c7aa88-7d94-425e-8c02-460bdf7d8c52" />
+
+Interface state changed to up
 
 
 
